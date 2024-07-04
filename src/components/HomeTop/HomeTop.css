@@ -1,50 +1,56 @@
+.wrapperupper {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
 
-  .wrapperupper{
-    height:100vh;
-    width:100vw;
-    position: relative;
-  }
-  .wrapperupper img{
-    height: 100%;
-    width: 100%;
-  }
-  .btngetstarted{
-    position: absolute;
-    top:50%;
-    left:50%;
-    background-color: #ED6D1E;
-    color: #fff;
-    padding:6px;
-    padding-right:25px;
-    padding-left: 25px;
-    font-size:1.2rem;
-    overflow: hidden; /* Ensure the overflow is hidden for the button */
-    transition: background-color 1s, color 0.3s;
-  }
-  .btngetstarted::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: -100%; /* Initial position to the left of the button */
-    width: 100%; /* Full width */
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.5); /* White transparent background color */
-    transition: right 1s; /* Transition property for left position */
-  }
-  
-  .btngetstarted:hover::before {
-    right: 0; /* Move the pseudo-element to the right, revealing it */
-  }
-  
-  .btngetstarted:hover {
-    color: #fff; /* Ensure text color remains static */
-    background-color: rgba(255, 255, 255, 0.5); /* White transparent background color */
-  }
-  .swiper-button-next, .swiper-button-prev{
-    background-color: rgba(0, 0,0,0.5);
-    color: #fff;
-    
-  }
-  .swiper-button-next:after, .swiper-button-prev:after{
-    font-size:0.7rem !important;
-  }
+.wrapperupper img {
+  height: 100%;
+  width: 100%;
+}
+
+.btngetstarted {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 48, 131);
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 1.2rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 1s, color 0.3s;
+}
+
+.btngetstarted::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 152, 241, 0.5);
+  transition: right 1s;
+}
+
+
+
+.btngetstarted:hover {
+  color: #fff;
+  background-color: rgba(0, 106, 188, 0.7);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgb(0, 29, 100);
+  color: #fff;
+
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 0.7rem !important;
+}

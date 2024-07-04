@@ -1,18 +1,16 @@
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./Pages/Home";
-import { Routes, Route, Router, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, Router, BrowserRouter } from "react-router-dom";
 import Whyus from "./components/Whyus/Whyus";
 import Product from "./components/Product/Product";
 import Contactus from "./components/Contactus/Contactus";
 function App() {
   return (
     <div className="App">
-
       <BrowserRouter>
-      <Navbar/>
-      <Home/>
+        <Navbar />
+        <Home />
       </BrowserRouter>
-   
     </div>
   );
 }

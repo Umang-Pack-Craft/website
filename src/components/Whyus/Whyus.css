@@ -1,55 +1,89 @@
-.containwyus{
- width:100%; 
- min-height:100vh;  
+.containwyus {
+    width: 100%;
+    min-height: 100vh;
 }
-.upper{
+
+.upper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
 }
-.whyusHeading span{
-font-size:2.9rem;
-font-weight:400;
-color:#1B1B1B;
-font-family: 'Raleway', sans-serif !important;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
+.whyusHeading span {
+    font-size: 2.9rem;
+    font-weight: 400;
+    color: #1B1B1B;
+    font-family: 'Raleway', sans-serif !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
-.extraright{
-    margin-left:4%;
+
+/* .extraright {
+    margin-left: 4%;
+} */
+
+.rightparawhy {
+    text-align: end;
 }
-.rightparawhy{
-    text-align: right;
-    margin-right: 16%;
+
+.parawhy {
+    width: 60% !important;
+    text-align: center;
 }
-.parawhy{
-    width:59% !important;
-}
-.line{
+
+.line {
     border: 1px solid black;
-    width:10%;
+    width: 10%;
 }
-.newclasswhy{
+
+.newclasswhy {
     display: flex;
-    flex-direction:row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.childOfNewclasswhy {
+    width: 33.3%;
+    /* background-color: aliceblue; */
+}
+
+.kesarImage {
+    /* width: 200px; */
 
 }
- 
 
-.titlewhy{
-    padding:6px;
-    font-size:1.3rem;
+.hoverbounce {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
 }
+
+.lastHoverBon {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+
+}
+
+.titlewhy {
+    padding: 6px;
+    font-size: 1.3rem;
+}
+
 /* Add animation keyframes */
 @keyframes bounce {
     0% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-5px);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -57,34 +91,103 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 
 /* Apply styles */
 .hoverbounce:hover .ioshield {
-    color: black !important; /* Change icon color on hover */
-    animation: bounce 0.5s ; /* Apply bounce animation */
+    color: black !important;
+    animation: bounce 0.5s;
+
 }
+
 /* Apply styles */
 .hoverbounce .ioshield {
-    transition: color 0.3s; /* Smooth color transition */
+    transition: color 0.3s;
+    /* Smooth color transition */
 }
 
 .hoverbounce:hover .titlewhy {
-    color: #ED6D1E; /* Change text color on hover */
+    color: rgb(0, 48, 131);
+    /* Change text color on hover */
 }
-.whyush3title{
-   font-size:1.5rem;
-   font-weight:400;
-   margin:5px;
+
+.whyush3title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 5px;
 }
-@media (max-width: 1211px) {
+
+.borderBWThem {
+    display: none;
+}
+
+@media screen and (max-width:1086px) {
+    .kesarImage {
+        display: none;
+    }
+
     .newclasswhy {
-      flex-direction: column;
-      align-items: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-wrap: wrap; */
     }
+
+    .childOfNewclasswhy {
+        width: 50%;
+        margin: 0 30px;
+        /* background-color: aliceblue; */
+    }
+
+    .borderBWThem {
+        height: 700px;
+        width: 10px;
+        border-radius: 10px;
+        background-color: blue;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .kesarImage {
+        display: none;
+    }
+
+    .newclasswhy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-wrap: wrap; */
+    }
+
+    .childOfNewclasswhy {
+        width: 50%;
+        margin: 0 30px;
+        /* background-color: aliceblue; */
+    }
+
+    .borderBWThem {
+        height: 700px;
+        width: 10px;
+        border-radius: 10px;
+        background-color: blue;
+        display: block;
+    }
+
+}
+
+
+/* @media (max-width: 1211px) {
+    .newclasswhy {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .col-md-3 {
-      width: 100%;
-      margin-bottom: 20px;
+        width: 100%;
+        margin-bottom: 20px;
     }
-  }
+}
+
 @media (max-width: 768px) {
     .newclasswhy {
-      flex-direction: column;
+        flex-direction: column;
     }
-  }
+} */

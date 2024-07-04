@@ -15,156 +15,172 @@ const Whyus = () => {
     <>
       <div id="whyus" className="container-fluid containwyus">
         <div className="row">
-          <div className="col-12">
-            <div className="upper">
-              <div className="whyusHeading m-4 pt-5 pb-3 ">
-                <span>WHY CHOOSE US ?</span>
-              </div>
-              <div className="line"></div>
-              <div className="parawhy m-4 ">
-                <p className="pt-3 pb-5">
-                  "To be leading company and preferred supplier for providing
-                  Corrugated Box packaging solutions to customers across the
-                  country" We want to become a trusted partner to our customers,
-                  providing high end packaging solutions for all their needs.."
-                </p>
-              </div>
+          <div className="upper">
+            <div className="whyusHeading m-4 pt-5 pb-3 ">
+              <span>WHY CHOOSE US ?</span>
             </div>
-            <div className="middle">
-              <div className="container-fluid">
-                <div className="row newclasswhy m-0 p-0 g-0">
-                  <div className="col-md-3 p-0 m-0">
-                    <div className="iconpara mt-5 mb-5 pb-5">
-                      <div className="hoverbounce mt-4 mb-4">
+            <div className="line"></div>
+            <div className="parawhy my-3">
+              <blockquote>
+                <q>
+                  Umang Pack-craft was founded in the year 2018 and we
+                  specialise in manufacturing 3, 5, and 7 ply corrugated boxes.
+                  Situated near Chhatral, our factory spans 7,500 sq. ft and
+                  houses both manual and automatic corrugation plants. Our aim
+                  is customer satisfaction, crafting boxes to meet diverse
+                  specifications.
+                </q>
+              </blockquote>
+            </div>
+          </div>
+          <div className="middle my-3">
+            <div className="container-fluid">
+              <div className="newclasswhy">
+                <div className="childOfNewclasswhy">
+                  <div className="iconpara mt-5 mb-5 pb-5">
+                    <div className="hoverbounce mt-4 mb-4">
+                      <span>
                         <IoShield
-                          color="#ED6D1E"
+                          color="rgb(0,48,131)"
                           fontSize={40}
                           className="ioshield"
                         />
-                        <span className="titlewhy w-100 mx-2">
-                          International quality standards
-                        </span>
-                      </div>
-
-                      <div className="paraicon mb-4">
-                        <p>
-                          International quality standards are criteria or rules
-                          set up by organizations that help determine compliance
-                          across national borders.
-                        </p>
-                      </div>
+                      </span>
+                      <span className="titlewhy w-100 mx-2">
+                        International quality standards
+                      </span>
                     </div>
 
-                    <div className="iconpara mt-5 mb-5 pb-5">
-                      <div className="hoverbounce mt-4 mb-4">
+                    <div className="paraicon mb-4">
+                      <p>
+                        International quality standards are criteria or rules
+                        set up by organizations that help determine compliance
+                        across national borders.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="iconpara mt-5 mb-5 pb-5">
+                    <div className="hoverbounce mt-4 mb-4">
+                      <span>
                         <IoPricetagsSharp
-                          color="#ED6D1E"
+                          color="rgb(0,48,131)"
                           fontSize={40}
                           className="ioshield"
                         />
-                        <span className="titlewhy w-100 mx-2">
-                          Competitive pricing policy
-                        </span>
-                      </div>
-
-                      <div className="paraicon">
-                        <p>
-                          Competitive pricing is a pricing strategy in which the
-                          competitors' prices are taken into consideration when
-                          setting the price of the same or similar products.
-                        </p>
-                      </div>
+                      </span>
+                      <span className="titlewhy w-100 mx-2">
+                        Competitive pricing policy
+                      </span>
                     </div>
 
-                    <div className="iconpara mt-5 mb-5 pb-5">
-                      <div className="hoverbounce mt-4 mb-4">
+                    <div className="paraicon">
+                      <p>
+                        Competitive pricing is a pricing strategy in which the
+                        competitors' prices are taken into consideration when
+                        setting the price of the same or similar products.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="iconpara mt-5 mb-5 pb-5">
+                    <div className="hoverbounce mt-4 mb-4">
+                      <span>
                         <FaPaperPlane
-                          color="#ED6D1E"
+                          color="rgb(0,48,131)"
                           fontSize={40}
                           className="ioshield"
                         />
-                        <span className="titlewhy w-100 mx-2">
-                          Technically qualified engineers
-                        </span>
-                      </div>
+                      </span>
+                      <span className="titlewhy w-100 mx-2">
+                        Technically qualified engineers
+                      </span>
+                    </div>
 
-                      <div className="paraicon">
-                        <p>
-                          An engineering technician is primarily trained in the
-                          skills and techniques related to a specific ...
-                          Engineering technicians help solve technical problems
-                          in many ways.
-                        </p>
-                      </div>
+                    <div className="paraicon">
+                      <p>
+                        An engineering technician is primarily trained in the
+                        skills and techniques related to a specific ...
+                        Engineering technicians help solve technical problems in
+                        many ways.
+                      </p>
                     </div>
                   </div>
+                </div>
 
-                  <div className="col-md-3">
-                    <img
-                      src="https://kesarcraft.com/images/device.jpg"
-                      alt="kesarmobileapp"
-                    />
-                  </div>
+                <div className="">
+                  <img
+                    src="https://kesarcraft.com/images/device.jpg"
+                    alt="kesarmobileapp"
+                    className="m-auto kesarImage"
+                  />
+                  <div className="borderBWThem"></div>
+                </div>
 
-                  <div className="col-md-3">
-                    <div className="iconpara mt-5 mb-5 pb-5">
-                      <div className="hoverbounce extraright mt-4 mb-4 mr-0">
-                        <span className="titlewhy w-100 mx-2">
-                          Stringent quality control
-                        </span>
+                <div className="childOfNewclasswhy">
+                  <div className="iconpara mt-5 mb-5 pb-5">
+                    <div className="hoverbounce extraright lastHoverBon mt-4 mb-4 mr-0">
+                      <span className="titlewhy mx-2">
+                        Stringent quality control
+                      </span>
+                      <span>
                         <FaRegCalendarDays
-                          color="#ED6D1E"
+                          color="rgb(0,48,131)"
                           fontSize={40}
                           className="ioshield"
                         />
-                      </div>
-                      <div className="paraicon mb-4">
-                        <p className="rightparawhy">
-                          Our customers should expect nothing less than the best
-                          possible product.
-                        </p>
-                      </div>
+                      </span>
                     </div>
+                    <div className="paraicon mb-4">
+                      <p className="rightparawhy">
+                        Our customers should expect nothing less than the best
+                        possible product.
+                      </p>
+                    </div>
+                  </div>
 
-                    <div className="iconpara mt-5 mb-5 pb-5">
-                      <div className="hoverbounce mt-4 mb-4">
-                        <span className="titlewhy w-100 mx-2">
-                          Ethical business policies
-                        </span>
+                  <div className="iconpara mt-5 mb-5 pb-5">
+                    <div className="hoverbounce lastHoverBon mt-4 mb-4">
+                      <span className="titlewhy mx-2">
+                        Ethical business policies
+                      </span>
+                      <span>
                         <MdBusinessCenter
-                          color="#ED6D1E"
+                          color="rgb(0,48,131)"
                           fontSize={40}
                           className="ioshield"
                         />
-                      </div>
-                      <div className="paraicon mb-4">
-                        <p className="rightparawhy">
-                          Ethical policies are guidelines for all employees of a
-                          company to do the right thing and behave at high
-                          standards at all times. Good ethical policies create a
-                          good culture based on trust and transparency..
-                        </p>
-                      </div>
+                      </span>
                     </div>
+                    <div className="paraicon mb-4">
+                      <p className="rightparawhy">
+                        Ethical policies are guidelines for all employees of a
+                        company to do the right thing and behave at high
+                        standards at all times. Good ethical policies create a
+                        good culture based on trust and transparency..
+                      </p>
+                    </div>
+                  </div>
 
-                    <div className="iconpara mt-5 mb-5 pb-5">
-                      <div className="hoverbounce mt-4 mb-4">
-                        <span className="titlewhy w-100 mx-2">
-                          Timely delivery schedule
-                        </span>
+                  <div className="iconpara mt-5 mb-5 pb-5">
+                    <div className="hoverbounce lastHoverBon mt-4 mb-4">
+                      <span className="titlewhy mx-2">
+                        Timely delivery schedule
+                      </span>
+                      <span>
                         <IoMdSettings
-                          color="#ED6D1E"
+                          color="rgb(0,48,131)"
                           fontSize="40"
                           className="ioshield"
                         />
-                      </div>
-                      <div className="paraicon mb-4">
-                        <p className="rightparawhy">
-                          On time delivery seems simple but is actually quite
-                          nuanced, with a myriad of factors complicating both
-                          the definition of OTD and how it is measured.
-                        </p>
-                      </div>
+                      </span>
+                    </div>
+                    <div className="paraicon mb-4">
+                      <p className="rightparawhy">
+                        On time delivery seems simple but is actually quite
+                        nuanced, with a myriad of factors complicating both the
+                        definition of OTD and how it is measured.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -173,10 +189,10 @@ const Whyus = () => {
           </div>
         </div>
       </div>
-      <CompanyOverview/>
+      {/* <CompanyOverview />
       <CoreValue />
       <Vision />
-      <Misson />
+      <Misson /> */}
     </>
   );
 };
