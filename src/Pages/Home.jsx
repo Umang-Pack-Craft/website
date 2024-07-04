@@ -15,9 +15,9 @@ const Home = () => {
     <div>
       <HomeTop />
       <Whyus />
-      {/* <Product/>
-      <Contactus/>
-      <Fotter/> */}
+      <Product />
+      <Contactus />
+      <Fotter />
     </div>
   );
 };

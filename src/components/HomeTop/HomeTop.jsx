@@ -14,7 +14,7 @@ import six from "../../assets/six.JPG";
 import seven from "../../assets/seven.JPG";
 import eight from "../../assets/eight.JPG";
 
-import { Pagination, Navigation } from "swiper/modules";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
 const HomeTop = () => {
   return (
     <>
@@ -23,13 +23,14 @@ const HomeTop = () => {
         spaceBetween={1}
         loop={true}
         autoplay={{
-          delay: 1500,
+          delay: 2500,
+          disableOnInteraction: false,
         }}
         pagination={{
           clickable: true,
         }}
+        modules={[Pagination, Autoplay]}
         navigation={true}
-        modules={[Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>

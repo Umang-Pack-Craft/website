@@ -1,22 +1,46 @@
- 
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
+.policy1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  /* Adjust margin as needed */
+}
+
+.policyleft {
+  flex: 1;
+}
+
+.policyright {
+  width: 10%;
+  height: 3px;
+  background-color: #000;
+}
+
+.policyleft a p {
+  color: grey;
+}
+
+@media screen and (max-width:558px) {
   .policy1 {
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 20px; /* Adjust margin as needed */
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+    /* Adjust margin as needed */
   }
-  
-  .policyleft {
-    flex: 1;
+
+  .policyright h3 {
+    font-size: x-small !important;
+    font-weight: 700 !important;
   }
- 
+
   .policyright {
-    width:10%;
-    height:3px;
-    background-color: #000; /* Keep it visible at all times */
+    width: 20%;
+    height: 3px;
+    background-color: #000;
+    /* Keep it visible at all times */
   }
-  
+
+  .policyTitle {
+    font-size: medium !important;
+  }
+}

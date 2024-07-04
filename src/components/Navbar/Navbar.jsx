@@ -98,7 +98,7 @@ const Navbar = () => {
                   Home
                 </div>
                 <div className="menu1" onClick={() => handleWhyUs("whyus")}>
-                  Whyus
+                  Why Us
                 </div>
                 <div className="menu1" onClick={() => handleProduct("product")}>
                   Product

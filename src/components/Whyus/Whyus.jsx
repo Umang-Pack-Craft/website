@@ -189,10 +189,10 @@ const Whyus = () => {
           </div>
         </div>
       </div>
-      {/* <CompanyOverview />
+      <CompanyOverview />
       <CoreValue />
       <Vision />
-      <Misson /> */}
+      <Misson />
     </>
   );
 };

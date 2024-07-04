@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./CoreValue.css";
 import "./Vision.css";
 
@@ -14,21 +14,29 @@ const ParallaxImage = () => {
 const Vision = () => {
   return (
     <>
-       <ParallaxImage />
-    <div className='container-fluid'>
-      <div className="row">
-        <div className="col-12 whyuscnt">
+      <ParallaxImage />
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-12 whyuscnt">
             <h2 className="whyusTitle pb-2">Vision</h2>
-            
+
             <div className="line"></div>
-            <p className='w-75 p-4 mb-4 pb-4'>"To be the leading company and preferred supplier for providing innovative, high-quality corrugated box packaging solutions to customers across the country. We aim to build lasting partnerships with our clients by delivering exceptional products and services that meet their evolving needs."</p>
+            <p className="w-75 p-4 mb-4 pb-4 whyusTitleContent">
+              <blockquote>
+                <q>
+                  To be the leading company and preferred supplier for providing
+                  innovative, high-quality corrugated box packaging solutions to
+                  customers across the country. We aim to build lasting
+                  partnerships with our clients by delivering exceptional
+                  products and services that meet their evolving needs.
+                </q>
+              </blockquote>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-
     </>
+  );
+};
 
-  )
-}
-
-export default Vision
+export default Vision;

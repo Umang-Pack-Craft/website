@@ -1,82 +1,93 @@
 .containerf {
-    /* max-width: 600px; */
-    margin: 0 auto;
-    padding: 20px;
-  }
-  .formouter{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .form-group input[type="text"],
-  .form-group input[type="email"],
-  .form-group input[type="tel"],
-  .form-group input[type="number"],
-  .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  .form-group textarea {
-    resize: vertical;
-  }
-  
-  .form-group button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  @media (max-width: 794px) {
-    .formouter{
-      display: flex;
-      flex-direction:column;
-    }
-  }
-  @media (min-width: 768px) {
-    .form-group {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-  
-    .form-group input[type="text"],
-    .form-group input[type="email"],
-    .form-group input[type="tel"] {
-      width: calc(33.33% - 10px);
-    }
-  
-    .form-group textarea {
-      width: 100%;
-    }
-  
-    .form-group label {
-      flex-basis: 100%;
-      margin-bottom: 10px;
-    }
-  
-    .form-group button {
-      flex-basis: 20%;
-    }
-  
-    .form-group #captcha {
-      width: 10%;
-    }
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.formouter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="number"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+  .marginRemoveAtSmall {
+    margin: 20px 0 !important;
 
   }
-  
+}
+
+@media (max-width: 794px) {
+  .formouter {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+
+
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"] {
+    width: calc(33.33% - 10px);
+  }
+
+  .form-group textarea {
+    width: 100%;
+  }
+
+  .form-group label {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+
+  .form-group button {
+    flex-basis: 20%;
+  }
+
+  .form-group #captcha {
+    width: 10%;
+  }
+
+}

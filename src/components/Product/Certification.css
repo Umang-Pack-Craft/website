@@ -1,15 +1,33 @@
 .certis {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-    align-content: center;
-    flex-wrap: nowrap;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
 /* For small devices (phones) */
 @media (max-width: 794px) {
-  .certis{
+  .certis {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .certi2,
+  .certi1 {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    border: 1px solid grey;
+  }
+
+  .certi2 img,
+  .certi1 img {
+    margin: auto !important;
+    width: 100%;
+    height: 100%;
   }
 }

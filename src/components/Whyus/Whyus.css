@@ -147,32 +147,120 @@
 
 @media screen and (max-width:768px) {
     .kesarImage {
-        display: none;
+        display: block;
     }
 
     .newclasswhy {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        /* flex-wrap: wrap; */
+        margin: 0 !important;
+
     }
 
     .childOfNewclasswhy {
-        width: 50%;
-        margin: 0 30px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
         /* background-color: aliceblue; */
     }
 
     .borderBWThem {
-        height: 700px;
-        width: 10px;
-        border-radius: 10px;
-        background-color: blue;
-        display: block;
+        display: none;
+    }
+
+    .parawhy {
+        width: 80% !important;
+        font-size: small;
+        text-align: center;
+    }
+
+    .middle {
+        margin: 0 !important;
+    }
+
+    .iconpara {
+        margin: 0 !important;
+        padding: 0 0 !important;
+    }
+
+    .hoverbounce {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paraicon {
+        font-size: small;
+    }
+
+    .rightparawhy {
+        text-align: center;
+    }
+
+    .lastHoverBon {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
 }
 
+@media screen and (max-width:518px) {
+    .whyusHeading span {
+        font-size: 2rem;
+    }
+
+    .parawhy {
+        width: 100% !important;
+    }
+
+    .whyusHeading {
+        padding: 4px 0 !important;
+        margin: 4px 0 !important;
+    }
+
+
+
+
+
+
+}
+
+@media screen and (max-width:425px) {
+    .whyusHeading span {
+        font-size: 1.5rem;
+    }
+
+    .parawhy {
+        width: 100% !important;
+        font-size: smaller;
+    }
+
+    .whyusHeading {
+        padding: 4px 0 !important;
+        margin: 4px 0 !important;
+    }
+
+    .line {
+        width: 50% !important;
+    }
+
+
+
+}
+
+@media screen and (max-width:400px) {
+    .kesarImage {
+        display: none !important;
+    }
+
+    .childOfNewclasswhy {
+        width: 100%;
+        margin: auto;
+        /* background-color: aliceblue; */
+    }
+
+}
 
 /* @media (max-width: 1211px) {
     .newclasswhy {

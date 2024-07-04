@@ -1,88 +1,67 @@
 .cardslider {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #DCDCDB;
-    position: relative; /* Make .cardslider a positioning context */
-  }
-  
-  .cardupper {
-    position: relative;
-    overflow: hidden; /* Ensure the image doesn't overflow */
-  }
-  
-  .cardimg img {
-    width: 100%; /* Ensure the image fills its container */
-    height: 270px; /* Set a fixed height for all images */
-    object-fit: cover; /* Ensure the image covers the entire container */
-    transition: transform 0.3s ease; /* Add transition for smooth zoom effect */
-  }
-  
-  /* Apply zoom effect on hover */
-  .cardslider:hover .cardimg img {
-    transform: scale(1.1); /* Adjust the scale factor for desired zoom effect */
-  }
-  
-  .cardicon {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    color: #ED6D1E;
-  }
-  
-  .cardline {
-    width: 100%; /* Ensure .cardline spans the entire width */
-    height: 5px;
-    background-color: #ED6D1E; /* Keep it visible at all times */
-    position: absolute; /* Position relative to .cardslider */
-    bottom: 30%; /* Align to the bottom of .cardslider */
-  }
-  
-  .cardbtm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .sheet,
-  .sheettype {
-    margin: 10px 0;
-    color: black; /* Default color */
-  }
-  
-  /* Change text color on hovering */
-  .cardslider:hover .sheet,
-  .cardslider:hover .sheettype {
-    color: #ED6D1E;
-  }
-  /* Media queries for responsiveness */
-  @media screen and (max-width: 768px) {
-    .cardslider {
-      width: 90%; /* Adjust width for smaller screens */
-    }
-  
-    .cardimg img {
-      height: 220px; /* Adjust image height for smaller screens */
-    }
-  }
-  
-  @media screen and (max-width: 576px) {
-    .cardslider {
-      width: 95%; /* Further adjust width for even smaller screens */
-    }
-  
-    .cardimg img {
-      height: 61px !important; /* Further adjust image height for even smaller screens */
-    }
-    .sheet{
-      font-size: 0.6rem;
-    }
-    .cardicon{
-      bottom: -1px;
-      right: 3px;
-    }
-    .bsfillimage{
-      font-size:15px;
-    }
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid grey;
+  position: relative;
+}
+
+
+
+.cardupper {
+  position: relative;
+  overflow: hidden;
+}
+
+.cardimg img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Apply zoom effect on hover */
+.cardslider:hover .cardimg img {
+  transform: scale(1.1);
+  /* Adjust the scale factor for desired zoom effect */
+}
+
+.cardicon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: rgb(0, 48, 131);
+}
+
+.cardline {
+  width: 100%;
+  /* Ensure .cardline spans the entire width */
+  height: 5px;
+  background-color: rgb(0, 48, 131);
+  /* Keep it visible at all times */
+  position: absolute;
+  /* Position relative to .cardslider */
+  bottom: 30%;
+  /* Align to the bottom of .cardslider */
+}
+
+.cardbtm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sheet,
+.sheettype {
+  margin: 10px 0;
+  color: black;
+  /* Default color */
+}
+
+/* Change text color on hovering */
+.cardslider:hover .sheet,
+.cardslider:hover .sheettype {
+  color: rgb(0, 48, 131);
+}
+
+/* Media queries for responsiveness */
