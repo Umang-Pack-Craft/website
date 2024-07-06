@@ -10,11 +10,12 @@ const Policies = () => {
               <h3 className="policyTitle">
                 Policy On Prevention Of Sexual Harassment
               </h3>
+              {/* target="_blank" rel="noopener noreferrer */}
               <a
                 href="https://kesarcraft.com/certificate/Policy%20On%20Prevention%20Of%20Sexual%20Harassment.pdf"
                 style={{ color: "black", textDecoration: "none" }}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <p>Download.</p>
               </a>
@@ -28,6 +29,7 @@ const Policies = () => {
                 href="https://kesarcraft.com/certificate/policy%20on%20working%20Hours.pdf"
                 style={{ color: "black", textDecoration: "none" }}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <p>Download</p>
               </a>
@@ -41,6 +43,7 @@ const Policies = () => {
                 href="https://kesarcraft.com/certificate/policy%20on%20%20forced%20and%20compulsory.pdf"
                 style={{ color: "black", textDecoration: "none" }}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <p>Download</p>
               </a>
@@ -54,6 +57,7 @@ const Policies = () => {
                 href="https://kesarcraft.com/certificate/association.pdf"
                 style={{ color: "black", textDecoration: "none" }}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <p>Download</p>
               </a>
@@ -67,6 +71,7 @@ const Policies = () => {
                 href="https://kesarcraft.com/certificate/Wages.pdf"
                 style={{ color: "black", textDecoration: "none" }}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <p>Download</p>
               </a>
@@ -80,6 +85,7 @@ const Policies = () => {
                 href="https://kesarcraft.com/certificate/policy%20on%20child%20labour.pdf"
                 style={{ color: "black", textDecoration: "none" }}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <p>Download</p>
               </a>
@@ -93,6 +99,7 @@ const Policies = () => {
                 href="https://kesarcraft.com/certificate/policy%20on%20anti%20Discrimination.pdf"
                 style={{ color: "black", textDecoration: "none" }}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <p>Download</p>
               </a>
