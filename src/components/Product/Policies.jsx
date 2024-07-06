@@ -1,4 +1,3 @@
-import React from "react";
 import "./Policies.css";
 
 const Policies = () => {
@@ -15,6 +14,7 @@ const Policies = () => {
                 href="https://kesarcraft.com/certificate/Policy%20On%20Prevention%20Of%20Sexual%20Harassment.pdf"
                 style={{ color: "black", textDecoration: "none" }}
                 target="_blank"
+                rel="noreferrer"
               >
                 <p>Download.</p>
               </a>

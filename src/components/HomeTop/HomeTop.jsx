@@ -11,10 +11,8 @@ import three from "../../assets/three.JPG";
 import four from "../../assets/four.JPG";
 import five from "../../assets/five.JPG";
 import six from "../../assets/six.JPG";
-import seven from "../../assets/seven.JPG";
-import eight from "../../assets/eight.JPG";
 
-import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 const HomeTop = () => {
   return (
     <>
