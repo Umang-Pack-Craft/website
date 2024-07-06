@@ -6,7 +6,6 @@ import Certification from "./Certification";
 import MainProductcarousol from "./MainProductcarousol";
 import Policies from "./Policies";
 import Testimonial from "./Testimonial";
-import QualityAssurance from "./QualityAssurance";
 
 const Product = () => {
   return (
