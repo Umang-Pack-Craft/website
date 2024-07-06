@@ -1,5 +1,3 @@
-import React, { useRef, useState } from "react";
-
 import "../Whyus/CoreValue.css";
 import "../Whyus/Vision.css";
 
