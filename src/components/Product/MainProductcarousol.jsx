@@ -13,7 +13,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 import { BsFillImageFill } from "react-icons/bs";
 const MainProductcarousol = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  // const [slide, setSlide] = useState(3.5);
+
   useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
