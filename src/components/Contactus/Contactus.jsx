@@ -67,7 +67,7 @@ const Contactus = () => {
                   required
                 />
               </div> */}
-            <div className="form-group">
+            <div className="form-group d-flex justify-content-end">
               <button
                 type="submit"
                 style={{ backgroundColor: "rgb(0,29,100)" }}
