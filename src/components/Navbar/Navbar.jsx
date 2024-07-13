@@ -3,6 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import "./Navbar.css";
 import { RxCross1 } from "react-icons/rx";
 import { useState, useEffect } from "react";
+import logo from "../../assets/umangLogo.png";
 const Navbar = () => {
   const navigate = useNavigate();
 
@@ -90,7 +91,7 @@ const Navbar = () => {
         <div className="row m-0 g-0 p-0">
           <div className="navcnt m-0 p-0 g-0">
             <div className="navleft">
-              <img src="https://kesarcraft.com/images/logo.png" alt="logo" />
+              <img src={logo} alt="logo" />
             </div>
             <div className="navright">
               <div className="menues">

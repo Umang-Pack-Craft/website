@@ -56,6 +56,7 @@ const Testimonial = () => {
                       src="https://www.grocery.com/wp-content/uploads/2011/03/McCainFoods.jpg"
                       height="20px"
                       alt=""
+                      className="img-fluid"
                     />
                   </div>
                   <div className="happypara p-5">
