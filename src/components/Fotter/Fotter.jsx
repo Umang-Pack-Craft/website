@@ -5,6 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
 import { CiFacebook } from "react-icons/ci";
 import { ImGooglePlus3 } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 const Fotter = () => {
   return (
@@ -24,7 +25,10 @@ const Fotter = () => {
                 <span>
                   <FaLocationDot className="fotterphone" fontSize={33} />
                 </span>
-                <span className="mt-3">
+                <span
+                  className="mt-3 addressMobile"
+                  style={{ textAlign: "center" }}
+                >
                   {" "}
                   Sr. No.: 109 & 110, Nr. Ahmadpura Bus Stop, Talod-Himatnagar
                   <br />
@@ -60,7 +64,14 @@ const Fotter = () => {
                     className="copyrighticoninner p-1"
                   />
                 </div>
-                <p>Design by Aplus Design Studio</p>
+                <p>
+                  <Link
+                    style={{ textDecoration: "none", color: "white" }}
+                    to="disneygraphics.com"
+                  >
+                    Design by Disneygraphics
+                  </Link>
+                </p>
               </div>
             </div>
           </div>
