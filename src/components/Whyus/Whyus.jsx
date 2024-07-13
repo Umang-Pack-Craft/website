@@ -10,6 +10,7 @@ import CoreValue from "./CoreValue";
 import Vision from "./Vision";
 import Misson from "./Misson";
 import CompanyOverview from "./CompanyOverview";
+import mobileView from "../../assets/umangMobile.png";
 const Whyus = () => {
   return (
     <>
@@ -110,9 +111,9 @@ const Whyus = () => {
 
                 <div className="">
                   <img
-                    src="https://kesarcraft.com/images/device.jpg"
+                    src={mobileView}
                     alt="kesarmobileapp"
-                    className="m-auto kesarImage"
+                    className="m-auto kesarImage img-fluid"
                   />
                   <div className="borderBWThem"></div>
                 </div>
