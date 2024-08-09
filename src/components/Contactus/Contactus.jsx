@@ -15,7 +15,7 @@ const Contactus = () => {
         <div className="containerf">
           <form id="contactForm">
             <div className="formouter">
-              <div className="form-group w-100">
+              <div className="form-group w-100 marginRemoveAtSmall">
                 <input
                   type="text"
                   id="name"
@@ -35,7 +35,7 @@ const Contactus = () => {
                   required
                 />
               </div>
-              <div className="form-group w-100">
+              <div className="form-group w-100  marginRemoveAtSmall">
                 <input
                   type="tel"
                   id="phone"
@@ -46,7 +46,7 @@ const Contactus = () => {
                 />
               </div>
             </div>
-            <div className="form-group">
+            <div className="form-group  marginRemoveAtSmall">
               <textarea
                 id="message"
                 name="message"
