@@ -2,9 +2,7 @@ import React from "react";
 import OurProductRange from "./OurProductRange";
 import MainProducts from "./MainProducts";
 import QualityControl from "./QualityControl";
-import Certification from "./Certification";
 import MainProductcarousol from "./MainProductcarousol";
-import Policies from "./Policies";
 import Testimonial from "./Testimonial";
 // test
 const Product = () => {
@@ -21,9 +19,6 @@ const Product = () => {
         <MainProducts />
         <MainProductcarousol />
         <QualityControl />
-        {/* <QualityAssurance /> */}
-        <Certification />
-        <Policies />
         <Testimonial />
       </div>
     </>

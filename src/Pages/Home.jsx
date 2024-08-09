@@ -11,11 +11,11 @@ import Fotter from "../components/Fotter/Fotter.jsx";
 const Home = () => {
   return (
     <div>
-      <HomeTop />
+      {/* <HomeTop /> */}
       <Whyus />
-      <Product />
-      <Contactus />
-      <Fotter />
+      {/* <Product /> */}
+      {/* <Contactus /> */}
+      {/* <Fotter /> */}
     </div>
   );
 };
