@@ -8,7 +8,7 @@ const Contactus = () => {
       <div className="row">
         <div className="col-12 whyuscnt w-100">
           <h2 className="whyusTitle pb-2">Contact Us</h2>
-          <div className="line"></div>
+          
         </div>
       </div>
       <div className="my-5">

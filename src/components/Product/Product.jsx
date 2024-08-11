@@ -12,7 +12,7 @@ const Product = () => {
         <div className="row">
           <div className="col-12 whyuscnt">
             <h2 className="whyusTitle pb-2">Product</h2>
-            <div className="line"></div>
+             
           </div>
         </div>
         <OurProductRange />

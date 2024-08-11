@@ -16,7 +16,7 @@ const Industries = () => {
     <div className="row">
       <div className="col-12 whyuscnt">
           <h2 className="whyusTitle pb-2">INDUSTRIES</h2>
-        <div className="line"></div>
+         
           <p className='w-75 p-4 ' style={{textAlign:"center"}}>"We cater to various types of industries:”
        
           </p>

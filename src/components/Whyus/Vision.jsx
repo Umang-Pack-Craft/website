@@ -20,7 +20,7 @@ const Vision = () => {
           <div className="col-12 whyuscnt">
             <h2 className="whyusTitle pb-2">Vision</h2>
 
-            <div className="line"></div>
+             
             <p className="w-75 p-4 mb-4 pb-4 whyusTitleContent">
               <blockquote>
                 <q>

@@ -20,7 +20,7 @@ const Whyus = () => {
             <div className="whyusHeading m-2 pt-5 pb-3 ">
               <span>WHY CHOOSE US ?</span>
             </div>
-            <div className="line"></div>
+             
             <div className="parawhy my-3">
               <blockquote>
                 <q>

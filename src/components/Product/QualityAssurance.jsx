@@ -17,7 +17,7 @@ const QualityAssurance = () => {
           <div className="row">
             <div className="col-12 whyuscnt">
               <h2 className="whyusTitle pb-2">QUALITY ASSURANCE</h2>
-              <div className="line"></div>
+               
               <p className="w-75 p-4 " style={{ textAlign: "center" }}>
                 "Our fully equipped QC lab rigorously tests all inbound and
                 outbound materials to meet required standards.”

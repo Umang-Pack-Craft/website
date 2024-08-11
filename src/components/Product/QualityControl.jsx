@@ -20,7 +20,7 @@ const QualityControl = () => {
         <div className="row">
           <div className="col-12 whyuscnt  " id="mission">
             <h2 className="whyusTitle pb-2">QUALITY CONTROL</h2>
-            <div className="line"></div>
+             
             <p className="w-75 p-4 whyusTitleContent notCen">
               <blockquote>
                 <q>

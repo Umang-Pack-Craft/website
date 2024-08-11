@@ -5,8 +5,8 @@ const CoreValue = () => {
     <div className="container-fluid coreValue">
       <div className="row">
         <div className="col-12 whyuscnt ">
-          <h2 className="whyusTitle pb-2">CORE VALUES AND GOALS</h2>
-          <div className="line "></div>
+          <h2 className="whyusTitle pb-2">Core Values and Goals</h2>
+         
           <p className="w-75 p-4 whyusTitleContent">
             <blockquote>
               <q>
