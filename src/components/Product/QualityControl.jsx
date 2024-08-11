@@ -26,7 +26,7 @@ const QualityControl = () => {
           <div className="col-12 ">
             <div className="missionPoint w-75 m-auto">
               <p>→ Compression strength machine for boxes</p>
-              <p>→Bursting strength machine for boxes and paper</p>
+              <p>→ Bursting strength machine for boxes and paper</p>
               <p>→ BF tester for paper</p>
               <p>→ GSM tester</p>
               <p>→ Moisture meter</p>
