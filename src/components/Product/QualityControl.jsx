@@ -16,15 +16,7 @@ const QualityControl = () => {
             <p className="w-75 p-4 whyusTitleContent notCen">
               <blockquote>
                 <q>
-                  We are equipped with a dedicated testing laboratory for
-                  ensuring the best quality of the products. From the raw
-                  materials to the finished products, we conduct testing with
-                  the most modern testing equipments under the supervision of
-                  qualified professionals to make sure that the customers get
-                  the best packaging solutions that safeguard their products.
-                  Each product that comes out of our lab has the assurance of
-                  high quality and zero defects. The testing equipments that we
-                  use are ...
+                We are equipped with a state-of-the-art testing laboratory that ensures the highest quality of our products. From raw materials to finished goods, every stage undergoes rigorous testing using modern equipment, all under the supervision of qualified professionals. Our fully equipped QC lab meticulously tests all inbound and outbound materials to meet stringent standards, ensuring that our customers receive packaging solutions that not only safeguard their products but also come with the assurance of high quality and zero defects.
                 </q>
               </blockquote>
             </p>
@@ -33,12 +25,11 @@ const QualityControl = () => {
         <div className="row">
           <div className="col-12 ">
             <div className="missionPoint w-75 m-auto">
-              <p>→ Box Compression Tester.</p>
-              <p>→ Bursting Strength Tester- Double head.</p>
-              <p>→ Crush Tester - RCT of paper & ECT & FCT & PAT.</p>
-              <p>→ Cobb Tester with a roller.</p>
-              <p>→ Electronic GSM Tester.</p>
-              <p>→ GSM Tester.</p>
+              <p>→ Compression strength machine for boxes</p>
+              <p>→Bursting strength machine for boxes and paper</p>
+              <p>→ BF tester for paper</p>
+              <p>→ GSM tester</p>
+              <p>→ Moisture meter</p>
             </div>
           </div>
         </div>

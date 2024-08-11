@@ -52,8 +52,9 @@ const Navbar = () => {
         <div className="navright">
           <div className="menues">
             <div className="menu1" onClick={() => handleNavigation('/')}>Home</div>
-            <div className="menu1" onClick={() => handleNavigation('/whyus', 'whyus')}>About</div>
+            <div className="menu1" onClick={() => handleNavigation('/about', 'whyus')}>About</div>
             <div className="menu1" onClick={() => handleNavigation('/product', 'product')}>Product</div>
+            <div className="menu1" onClick={() => handleNavigation('/customers', 'customers')}>Customers</div>
             <div className="menu1" onClick={() => handleNavigation('/contactus', 'contactus')}>Contact</div>
           </div>
           {windowWidth <= 768 && (
@@ -69,8 +70,9 @@ const Navbar = () => {
         </div>
         <div className="modal1-content">
           <div className="menu1-modal" onClick={() => handleNavigation('/')}>Home</div>
-          <div className="menu1-modal" onClick={() => handleNavigation('/whyus', 'whyus')}>About</div>
+          <div className="menu1-modal" onClick={() => handleNavigation('/about', 'whyus')}>About</div>
           <div className="menu1-modal" onClick={() => handleNavigation('/product', 'product')}>Product</div>
+          <div className="menu1-modal" onClick={() => handleNavigation('/customers', 'customers')}>Customers</div>
           <div className="menu1-modal" onClick={() => handleNavigation('/contactus', 'contactus')}>Contact</div>
         </div>
       </div>

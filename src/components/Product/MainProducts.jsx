@@ -11,11 +11,17 @@ const MainProducts = () => {
         <div className="row">
           <div className="col-12 whyuscnt">
             <h2 className="whyusTitle pb-2">
-              We mainly produce two types of product
+              We produce these products
             </h2>
-             
-            <h4 className="whyush3title mb-3">Corrugated Box</h4>
-            <h4 className="whyush3title mb-3">Corrugated Sheet Board</h4>
+            <ul className="whyush3title mb-3">
+              <li>PALLET BOX</li>
+              <li>DUPLEX BOX</li>
+              <li>MULTICOLOR BOX</li>
+              <li>DYE CUT BOX</li>
+              <li>REGULAR SLOTTED (RSC) BOX</li>
+            </ul>
+            {/* <h4 className="whyush3title mb-3">Corrugated Box</h4>
+            <h4 className="whyush3title mb-3">Corrugated Sheet Board</h4> */}
 
             <p className="w-75 p-4 whyusTitleContent notCen">
               <blockquote>

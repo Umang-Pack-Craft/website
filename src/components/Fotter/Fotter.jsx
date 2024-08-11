@@ -1,56 +1,80 @@
 import React from "react";
 import "./Fotter.css";
-import { FaPhoneVolume, FaLocationDot } from "react-icons/fa6";
-import { IoMail } from "react-icons/io5";
-import { CiFacebook } from "react-icons/ci";
-import { ImGooglePlus3 } from "react-icons/im";
+import { FaFacebookF, FaYoutube, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
+import logo from "../../assets/umangLogo.png";
 import { Link } from "react-router-dom";
-
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop - 80,
+        behavior: "smooth",
+      });
+    }
+  };
+
+  const handleNavigation = (path, sectionId) => {
+    navigate(path);
+    if (sectionId) {
+      setTimeout(() => scrollToSection(sectionId), 100);
+    }
+  };
+
   return (
     <footer className="footer">
-      <div className="container-fluid">
+      <div className="container">
         <div className="footer-content">
-          <div className="footer-info">
-            <div className="footer-contact">
-              <FaPhoneVolume className="footer-icon" />
-              <span>02770-239243/44</span>
+          <div className="footer-logo">
+            <img src={logo} alt="DG Logo" onClick={() => handleNavigation('/')} />
+            <p>Precision in Delivery, Excellence in Service-Your Satisfaction, Our Drive   </p>
+            <div className="social-icons">
+              <FaFacebookF />
+              <FaYoutube />
+              <FaInstagram />
+              <FaLinkedinIn />
             </div>
-            <div className="footer-contact">
-              <FaLocationDot className="footer-icon" />
-              <span className="address">
-                Sr. No.: 109 & 110, Nr. Ahmadpura Bus Stop, Talod-Himatnagar
+          </div>
+          
+          <div className="footer-links">
+            <h3>Links</h3>
+            <ul>
+              <li onClick={() => handleNavigation('/about', 'whyus')}>About</li>
+              <li onClick={() => handleNavigation('/product', 'product')}>Product</li>
+              <li onClick={() => handleNavigation('/customers', 'customers')}>Customers</li>
+              <li onClick={() => handleNavigation('/contactus', 'contactus')}>Contact</li>
+            </ul>
+          </div>
+          
+          <div className="footer-services">
+            <h3>Products</h3>
+            <ul>
+              <li>PALLET BOX</li>
+              <li>DUPLEX BOX</li>
+              <li>MULTICOLOR BOX</li>
+              <li>DYE CUT BOX</li>
+              <li>REGULAR SLOTTED (RSC) BOX</li>
+            </ul>
+          </div>
+          
+          <div className="footer-contact">
+            <h3>Contact</h3>
+            <p>+91XXXXXXXXXX</p>
+            <p>XYZ@gmail.com</p>
+            <p>Sr. No.: 109 & 110, Nr. Ahmadpura Bus Stop, Talod-Himatnagar
                 Highway, Ahmadpura Ta.Talod, Dist. Sabarkantha - 383215,
-                Gujarat.(India)
-              </span>
-            </div>
-            <div className="footer-contact">
-              <IoMail className="footer-icon" />
-              <span>
-                info@UmangPackCraft.com
-                <br />
-                sales@UmangPackCraft.com
-              </span>
-            </div>
+                Gujarat.(India)</p>
           </div>
+        </div>
+        
+        <div className="footer-bottom">
+          <p>Copyright © 2024 <Link to="https://disneygraphics.com" className="design-link">
+                   Disney Graphics
+                </Link></p>
           
-          
-          <div className="footer-bottom">
-            <p className="copyright">
-              Copyright © 2024 Umang Pack Craft. All rights reserve
-            </p>
-            <div className="design-info">
-              <div className="social-icons">
-                <CiFacebook className="social-icon" />
-                <ImGooglePlus3 className="social-icon" />
-              </div>
-              
-                <Link to="https://disneygraphics.com" className="design-link">
-                   d    |    Design by Disneygraphics
-                </Link>
-              
-            </div>
-          </div>
         </div>
       </div>
     </footer>
