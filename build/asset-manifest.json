@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c4281a1e.css",
+    "main.js": "/static/js/main.f7752330.js",
+    "static/media/one.JPG": "/static/media/one.598a144f5a36ac9587d6.JPG",
+    "static/media/three.JPG": "/static/media/three.f98256372f8416eb70fb.JPG",
+    "static/media/four.JPG": "/static/media/four.76a60409f7d1456d6c63.JPG",
+    "static/media/six.JPG": "/static/media/six.0b763a471f79d4e1dcd9.JPG",
+    "static/media/umangMobile.png": "/static/media/umangMobile.867d4ba5a2c87c025070.png",
+    "static/media/five.JPG": "/static/media/five.9df7babbe650dbcf12d9.JPG",
+    "static/media/two.JPG": "/static/media/two.37ae052d24341dafaff8.JPG",
+    "static/media/umangLogo.png": "/static/media/umangLogo.7c4a084e48aa18705b6c.png",
+    "index.html": "/index.html",
+    "main.c4281a1e.css.map": "/static/css/main.c4281a1e.css.map",
+    "main.f7752330.js.map": "/static/js/main.f7752330.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4281a1e.css",
+    "static/js/main.f7752330.js"
+  ]
+}

@@ -1,4 +1,4 @@
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "./Navbar.css";
 import { RxCross1 } from "react-icons/rx";
@@ -7,7 +7,6 @@ import logo from "../../assets/umangLogo.png";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  // const location = useLocation();
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [showModal, setShowModal] = useState(false);
