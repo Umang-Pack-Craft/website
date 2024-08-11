@@ -35,7 +35,11 @@
   text-align: center;
   margin: 0;
 }
-
+.overview{
+  margin: 8px;
+  font-size: 3.6rem;
+  font-weight: 700;
+}
 .overview-heading {
   font-size: 3rem;
   font-weight: 600;

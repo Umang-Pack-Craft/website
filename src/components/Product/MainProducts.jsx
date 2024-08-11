@@ -11,7 +11,7 @@ const MainProducts = () => {
         <div className="row">
           <div className="col-12 whyuscnt">
             <h2 className="whyusTitle pb-2">
-              We produce these products
+              Our Products
             </h2>
             <ul className="whyush3title mb-3">
               <li>PALLET BOX</li>

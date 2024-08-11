@@ -18,7 +18,7 @@ const Whyus = () => {
         <div className="row">
           <div className="upper">
             <div className="whyusHeading m-2 pt-5 pb-3 ">
-              <span>WHY CHOOSE US ?</span>
+              <span>Why Choose Us ?</span>
             </div>
              
             <div className="parawhy my-3">

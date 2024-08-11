@@ -41,7 +41,7 @@ const CompanyOverview = () => {
     <div className="company-overview">
       <div >
         <div className="company">
-          <h2 className="company-overview mt-5 ">Company Overview</h2>
+          <h2 className="overview mt-5 ">Company Overview</h2>
          
           
           {/* <h2 className="company-name">Umang Pack Craft Pvt. Ltd</h2> */}
