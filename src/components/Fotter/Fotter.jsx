@@ -31,12 +31,12 @@ const Footer = () => {
           <div className="footer-logo">
             <img src={logo} alt="Logo" onClick={() => handleNavigation('/home', 'home')} />
             <p>Precision in Delivery, Excellence in Service-Your Satisfaction, Our Drive   </p>
-            {/* <div className="social-icons">
+            <div className="social-icons">
               <FaFacebookF />
               <FaYoutube />
               <FaInstagram />
               <FaLinkedinIn />
-            </div> */}
+            </div>
           </div>
 
           <div className="footer-links">

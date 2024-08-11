@@ -48,6 +48,7 @@ const Navbar = () => {
       <div className={`navcnt ${scrolled ? 'scrolled' : ''}`}>
         <div className="navleft">
           <img src={logo} alt="logo" onClick={() => handleNavigation('/')} />
+          <div>Umang Pack Craft</div>
         </div>
         <div className="navright">
           <div className="menues">
