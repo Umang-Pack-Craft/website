@@ -15,7 +15,8 @@ import six from "../../assets/six.JPG";
 import { Pagination, Autoplay } from "swiper/modules";
 const HomeTop = () => {
   return (
-    <>
+    <div id="home">
+    
       <Swiper
         slidesPerView={1}
         spaceBetween={1}
@@ -74,7 +75,7 @@ const HomeTop = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 };
 

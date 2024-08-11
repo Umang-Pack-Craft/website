@@ -7,8 +7,7 @@ const Contactus = () => {
     <div id="contactus" className="container-fluid">
       <div className="row">
         <div className="col-12 whyuscnt w-100">
-          <h2 className="whyusTitle pb-2">Contact Us</h2>
-          
+          <h2 className="contact">Contact Us</h2>
         </div>
       </div>
       <div className="my-5">

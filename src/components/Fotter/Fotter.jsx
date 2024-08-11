@@ -29,26 +29,27 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <img src={logo} alt="DG Logo" onClick={() => handleNavigation('/')} />
+            <img src={logo} alt="Logo" onClick={() => handleNavigation('/home', 'home')} />
             <p>Precision in Delivery, Excellence in Service-Your Satisfaction, Our Drive   </p>
-            <div className="social-icons">
+            {/* <div className="social-icons">
               <FaFacebookF />
               <FaYoutube />
               <FaInstagram />
               <FaLinkedinIn />
-            </div>
+            </div> */}
           </div>
-          
+
           <div className="footer-links">
             <h3>Links</h3>
             <ul>
+            <li onClick={() => handleNavigation('/home', 'home')}>Home</li>
               <li onClick={() => handleNavigation('/about', 'whyus')}>About</li>
               <li onClick={() => handleNavigation('/product', 'product')}>Product</li>
               <li onClick={() => handleNavigation('/customers', 'customers')}>Customers</li>
               <li onClick={() => handleNavigation('/contactus', 'contactus')}>Contact</li>
             </ul>
           </div>
-          
+
           <div className="footer-services">
             <h3>Products</h3>
             <ul>
@@ -59,22 +60,22 @@ const Footer = () => {
               <li>REGULAR SLOTTED (RSC) BOX</li>
             </ul>
           </div>
-          
+
           <div className="footer-contact">
             <h3>Contact</h3>
             <p>+91XXXXXXXXXX</p>
             <p>XYZ@gmail.com</p>
             <p>Sr. No.: 109 & 110, Nr. Ahmadpura Bus Stop, Talod-Himatnagar
-                Highway, Ahmadpura Ta.Talod, Dist. Sabarkantha - 383215,
-                Gujarat.(India)</p>
+              Highway, Ahmadpura Ta.Talod, Dist. Sabarkantha - 383215,
+              Gujarat.(India)</p>
           </div>
         </div>
-        
+
         <div className="footer-bottom">
-          <p>Copyright © 2024 <Link to="https://disneygraphics.com" className="design-link">
-                   Disney Graphics
-                </Link></p>
-          
+          <p>Copyright © 2024 Umang Pack-craft | Developed By <Link to="https://disneygraphics.com" className="design-link">
+            Disney Graphics
+          </Link></p>
+
         </div>
       </div>
     </footer>
