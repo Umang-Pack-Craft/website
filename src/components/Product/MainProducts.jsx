@@ -3,15 +3,6 @@ import "../Whyus/Vision.css";
 
 import "./OurProductRange.css";
 
-const ParallaxImage = () => {
-  return (
-    <div className="parallax-wrapper">
-      {/* Adjust the background image URL and other styles as needed */}
-      <div className="parallax-image"></div>
-    </div>
-  );
-};
-
 const MainProducts = () => {
   return (
     <>

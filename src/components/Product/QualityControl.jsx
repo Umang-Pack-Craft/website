@@ -2,20 +2,12 @@ import React from "react";
 import "../Whyus/CoreValue.css";
 import "../Whyus/Vision.css";
 
-const ParallaxImage = () => {
-  return (
-    <div className="parallax-wrapper">
-      {/* Adjust the background image URL and other styles as needed */}
-      <div className="parallax-image"></div>
-    </div>
-  );
-};
+
 
 const QualityControl = () => {
   return (
     <>
-      {/* <ParallaxImage /> */}
-
+  
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 whyuscnt  " id="mission">

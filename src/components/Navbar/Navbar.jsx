@@ -7,7 +7,7 @@ import logo from "../../assets/umangLogo.png";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const location = useLocation();
+  // const location = useLocation();
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [showModal, setShowModal] = useState(false);
