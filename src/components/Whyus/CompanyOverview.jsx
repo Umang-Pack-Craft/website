@@ -1,5 +1,6 @@
 import React from "react";
 import "./CompanyOverview.css";
+
 import { FaBuilding, FaMapMarkerAlt, FaHistory, FaIndustry, FaUsers, FaBoxOpen } from "react-icons/fa";
 
 const CompanyOverview = () => {
@@ -22,7 +23,7 @@ const CompanyOverview = () => {
     {
       icon: <FaIndustry />,
       title: "Group Companies",
-      content: "Part of Vertex Industries, which manufactures PET Flakes. We work with leading companies like Reliance Industries Limited, Ganesha Ecosphere Ltd., Tijaria Polypipes Ltd., and Viral Industries Pvt. Ltd."
+      content: "Under the parasol of our Group of Companies, Vertex Industries which manufactures PET Flakes we do business with leading companies in India like. Reliance industries limited, Ganesha Ecosphere Ltd. Tijaria Polypipes Ltd. Viral IndustrE pvt. ltd"
     },
     {
       icon: <FaUsers />,
@@ -38,10 +39,12 @@ const CompanyOverview = () => {
 
   return (
     <div className="company-overview">
-      <div className="parallax-image">
-        <div className="overlay">
-          <h1 className="overview-heading">Company Overview</h1>
-          <h2 className="company-name">Kesar Craft Packaging Pvt. Ltd</h2>
+      <div >
+        <div className="company">
+          <h2 className="company-overview mb-4 ">COMPANY OVERVIEW</h2>
+          <div className="line "></div>
+          
+          {/* <h2 className="company-name">Umang Pack Craft Pvt. Ltd</h2> */}
         </div>
       </div>
       <div className="cards-container">

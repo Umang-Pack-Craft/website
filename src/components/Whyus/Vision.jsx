@@ -14,7 +14,7 @@ const ParallaxImage = () => {
 const Vision = () => {
   return (
     <>
-      <ParallaxImage />
+      {/* <ParallaxImage /> decrease the gap and give a white background */}
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 whyuscnt">

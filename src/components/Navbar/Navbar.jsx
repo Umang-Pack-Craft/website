@@ -1,177 +1,80 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "./Navbar.css";
 import { RxCross1 } from "react-icons/rx";
 import { useState, useEffect } from "react";
 import logo from "../../assets/umangLogo.png";
+
 const Navbar = () => {
   const navigate = useNavigate();
+  const location = useLocation();
 
-  // const [scrollPosition, setScrollPosition] = useState(0);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  // const handleScroll = () => {
-  //   const position = window.scrollY;
-  //   setScrollPosition(position);
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll, { passive: true });
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
+  const [showModal, setShowModal] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    const handleScroll = () => setScrolled(window.scrollY > 50);
 
     window.addEventListener("resize", handleResize);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("resize", handleResize);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
       window.scrollTo({
-        top: section.offsetTop,
+        top: section.offsetTop - 80,
         behavior: "smooth",
       });
     }
   };
 
-  const handleWhyUs = (sectionId) => {
-    navigate("/whyus");
-    scrollToSection(sectionId);
-  };
-
-  const handleWhyUsnew = (sectionId) => {
-    navigate("/whyus");
-    scrollToSection(sectionId);
-    setShowModal(!showModal);
-  };
-
-  const handleProduct = (sectionId) => {
-    navigate("/product");
-    scrollToSection(sectionId);
-  };
-  const handleProductnew = (sectionId) => {
-    navigate("/product");
-    scrollToSection(sectionId);
-    setShowModal(!showModal);
-  };
-  const handleContact = (sectionId) => {
-    navigate("/contactus");
-    scrollToSection(sectionId);
-  };
-  const handleContactnew = (sectionId) => {
-    navigate("/contactus");
-    scrollToSection(sectionId);
-    setShowModal(!showModal);
-  };
-
-  const [showModal, setShowModal] = useState(false);
-
-  const handleToggleModal = () => {
-    if (windowWidth <= 768) {
-      setShowModal(!showModal);
+  const handleNavigation = (path, sectionId) => {
+    navigate(path);
+    if (sectionId) {
+      setTimeout(() => scrollToSection(sectionId), 100);
     }
-  };
-
-  const handleClose = () => {
-    setShowModal(!showModal);
+    setShowModal(false);
   };
 
   return (
     <>
-      <div className="container-fluid m-0 p-0 g-0">
-        <div className="row m-0 g-0 p-0">
-          <div className="navcnt m-0 p-0 g-0">
-            <div className="navleft">
-              <img src={logo} alt="logo" />
-            </div>
-            <div className="navright">
-              <div className="menues">
-                <div className="menu1" onClick={() => navigate("/")}>
-                  Home
-                </div>
-                <div className="menu1" onClick={() => handleWhyUs("whyus")}>
-                  Why Us
-                </div>
-                <div className="menu1" onClick={() => handleProduct("product")}>
-                  Product
-                </div>
-                <div
-                  className="menu1"
-                  onClick={() => handleContact("contactus")}
-                >
-                  Contact Us
-                </div>
-
-                {windowWidth <= 768 && (
-                  <div className="hamburger mx-2" onClick={handleToggleModal}>
-                    {!showModal && (
-                      <GiHamburgerMenu
-                        fontSize={30}
-                        color=" rgb(0, 48, 131)"
-                        className="hamnew"
-                      />
-                    )}
-                  </div>
-                )}
-              </div>
-            </div>
+      <div className={`navcnt ${scrolled ? 'scrolled' : ''}`}>
+        <div className="navleft">
+          <img src={logo} alt="logo" onClick={() => handleNavigation('/')} />
+        </div>
+        <div className="navright">
+          <div className="menues">
+            <div className="menu1" onClick={() => handleNavigation('/')}>Home</div>
+            <div className="menu1" onClick={() => handleNavigation('/whyus', 'whyus')}>Why Us</div>
+            <div className="menu1" onClick={() => handleNavigation('/product', 'product')}>Product</div>
+            <div className="menu1" onClick={() => handleNavigation('/contactus', 'contactus')}>Contact Us</div>
           </div>
+          {windowWidth <= 768 && (
+            <div className="hamburger" onClick={() => setShowModal(!showModal)}>
+              <GiHamburgerMenu fontSize={30} color="rgb(0, 48, 131)" />
+            </div>
+          )}
         </div>
       </div>
-      {showModal && (
-        <div className="modal">
-          <div className="modal-close">
-            <RxCross1 fontSize={35} onClick={handleClose} />
-          </div>
-          <div className="modal1-content">
-            <div
-              className="menu1-modal"
-              onClick={() => {
-                navigate("/");
-                handleClose();
-              }}
-            >
-              Home
-            </div>
-            <div
-              className="menu1-modal"
-              onClick={() => {
-                handleWhyUsnew("whyus");
-                handleClose();
-              }}
-            >
-              Why Us
-            </div>
-            <div
-              className="menu1-modal"
-              onClick={() => {
-                handleProductnew("product");
-                handleClose();
-              }}
-            >
-              Product
-            </div>
-            <div
-              className="menu1-modal"
-              onClick={() => {
-                handleContactnew("contactus");
-                handleClose();
-              }}
-            >
-              Contact Us
-            </div>
-          </div>
+      <div className={`modal ${showModal ? 'show' : ''}`}>
+        <div className="modal-close">
+          <RxCross1 fontSize={35} onClick={() => setShowModal(false)} />
         </div>
-      )}
+        <div className="modal1-content">
+          <div className="menu1-modal" onClick={() => handleNavigation('/')}>Home</div>
+          <div className="menu1-modal" onClick={() => handleNavigation('/whyus', 'whyus')}>Why Us</div>
+          <div className="menu1-modal" onClick={() => handleNavigation('/product', 'product')}>Product</div>
+          <div className="menu1-modal" onClick={() => handleNavigation('/contactus', 'contactus')}>Contact Us</div>
+        </div>
+      </div>
     </>
   );
 };

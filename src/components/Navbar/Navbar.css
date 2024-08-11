@@ -1,43 +1,72 @@
 .navcnt {
-  height: 10vh;
-  width: 98% !important;
-  margin: auto !important;
+  height: 80px; /* Fixed height instead of vh */
+  width: 100%;
+  padding: 0 5%;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
 }
-
-
 
 .navleft img {
   height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.navleft img:hover {
+  transform: scale(1.05);
 }
 
 .navright {
   display: flex;
-  flex-direction: row;
+  align-items: center;
 }
 
 .menues {
-  display: flex !important;
-  justify-content: space-between !important;
-  font-family: var(--bs-font-sans-serif) !important;
-  align-items: center !important;
-
+  display: flex;
+  align-items: center;
 }
 
 .menu1 {
-  padding: 7px;
+  padding: 10px 15px;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
 .menu1:hover {
   color: rgb(0, 48, 131);
 }
 
+.menu1::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: rgb(0, 48, 131);
+  transition: all 0.3s ease;
+}
+
+.menu1:hover::after {
+  width: 100%;
+  left: 0;
+}
+
 .hamburger {
   cursor: pointer;
+  display: none;
 }
 
 .modal {
@@ -45,11 +74,19 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh !important;
-  background-color: rgba(255, 255, 255, 0.8);
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.modal.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 .modal-close {
@@ -58,57 +95,52 @@
   right: 30px;
   font-weight: 900;
   cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+  transition: all 0.3s ease;
 }
 
 .modal-close:hover {
   color: rgb(0, 48, 131);
+  transform: rotate(90deg);
 }
 
 .modal1-content {
-  position: relative;
-  padding: 20px;
-  border-radius: 5px;
-  font-size: 1.5rem;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  font-weight: 400;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
 }
 
-.modal1-content .menu1 {
-  padding: 10px 0;
+.modal.show .modal1-content {
+  transform: scale(1);
+}
+
+.modal1-content .menu1-modal {
+  padding: 15px 0;
   cursor: pointer;
-  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s ease;
 }
 
-.modal1-content :hover {
+.modal1-content .menu1-modal:hover {
   color: rgb(0, 48, 131);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .menu1 {
     display: none;
   }
 
-}
-
-
-@media screen and (max-width: 683px) {
-  .menues {
-    display: none;
-    /* Hide the menus for small devices */
+  .hamburger {
+    display: block;
   }
 
-  .navright {
-    justify-content: flex-end;
-    /* Align hamburger menu to the right */
-  }
-
-  .modal1-content {
-    font-size: 1.5rem;
-    /* Adjust font size for smaller screens */
+  .navcnt {
+    height: 60px;
   }
 }

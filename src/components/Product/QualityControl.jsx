@@ -14,7 +14,7 @@ const ParallaxImage = () => {
 const QualityControl = () => {
   return (
     <>
-      <ParallaxImage />
+      {/* <ParallaxImage /> */}
 
       <div className="container-fluid">
         <div className="row">

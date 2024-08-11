@@ -15,12 +15,12 @@ const ParallaxImage = () => {
 const MainProducts = () => {
   return (
     <>
-      <ParallaxImage />
+      {/* <ParallaxImage /> */}
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 whyuscnt">
             <h2 className="whyusTitle pb-2">
-              We are mainly produce two types of product
+              We mainly produce two types of product
             </h2>
             <div className="line"></div>
             <h4 className="whyush3title mb-3">Corrugated Box</h4>

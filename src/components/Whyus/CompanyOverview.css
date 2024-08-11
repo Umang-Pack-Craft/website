@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 .company-overview {
-  font-family: 'Poppins', sans-serif;
   background-color: #f0f4f8;
 }
 
@@ -32,7 +31,7 @@
 }
 
 .overview-heading, .company-name {
-  color: #fff;
+  color: #000000;
   text-align: center;
   margin: 0;
 }
@@ -44,7 +43,18 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
+.company{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.company-overview {
+  margin: 8px;
+  font-size: 3.6rem;
+  font-weight: 300;
+}
 .company-name {
   font-size: 1.5rem;
   font-weight: 300;
