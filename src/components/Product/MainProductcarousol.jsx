@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import box1 from "../../assets/1.jpg";
+import box2 from "../../assets/2.jpg";
 
 // Import Swiper styles
 
@@ -50,7 +52,7 @@ const MainProductcarousol = () => {
             <div className="cardslider w-100">
               <div className="cardupper">
                 <div className="cardimg bg-danger">
-                  <img src="https://kesarcraft.com/images/box3.jpg" alt="" />
+                  <img src={box1} alt="" />
                 </div>
                 <div className="cardicon">
                   <BsFillImageFill fontSize={25} className="bsfillimage" />
@@ -71,10 +73,7 @@ const MainProductcarousol = () => {
             <div className="cardslider w-100">
               <div className="cardupper">
                 <div className="cardimg">
-                  <img
-                    src="https://kesarcraft.com/images/boxsheet.jpg"
-                    alt=""
-                  />
+                <img src={box1} alt="" />
                 </div>
                 <div className="cardicon">
                   <BsFillImageFill fontSize={25} />
@@ -95,7 +94,7 @@ const MainProductcarousol = () => {
             <div className="cardslider w-100">
               <div className="cardupper">
                 <div className="cardimg">
-                  <img src="https://kesarcraft.com/images/box1.jpg" alt="" />
+                <img src={box2} alt="" />
                 </div>
                 <div className="cardicon">
                   <BsFillImageFill fontSize={25} />
@@ -116,10 +115,7 @@ const MainProductcarousol = () => {
             <div className="cardslider w-100">
               <div className="cardupper">
                 <div className="cardimg">
-                  <img
-                    src="https://kesarcraft.com/images/boxsheet2.jpg"
-                    alt=""
-                  />
+                <img src={box2} alt="" />
                 </div>
                 <div className="cardicon">
                   <BsFillImageFill fontSize={25} />
