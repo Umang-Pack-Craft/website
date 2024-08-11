@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>Copyright © 2024 Umang Pack-craft | Developed By <Link to="https://disneygraphics.com" className="design-link">
+          <p>Copyright © 2024 Umang Pack-craft </p><p> Developed By <Link to="https://disneygraphics.com" className="design-link">
             Disney Graphics
           </Link></p>
 
