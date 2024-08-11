@@ -2,19 +2,11 @@ import React from "react";
 import "./CoreValue.css";
 import "./Vision.css";
 
-const ParallaxImage = () => {
-  return (
-    <div className="parallax-wrapper">
-      {/* Adjust the background image URL and other styles as needed */}
-      <div className="parallax-image"></div>
-    </div>
-  );
-};
 
 const Vision = () => {
   return (
     <>
-      {/* <ParallaxImage /> decrease the gap and give a white background */}
+  
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 whyuscnt">

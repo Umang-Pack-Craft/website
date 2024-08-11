@@ -34,20 +34,21 @@ const Footer = () => {
             </div>
           </div>
           
+          
           <div className="footer-bottom">
             <p className="copyright">
-              Copyright © 2024 Umang Pack Craft. All rights reserved.
+              Copyright © 2024 Umang Pack Craft. All rights reserve
             </p>
             <div className="design-info">
               <div className="social-icons">
                 <CiFacebook className="social-icon" />
                 <ImGooglePlus3 className="social-icon" />
               </div>
-              <p>
+              
                 <Link to="https://disneygraphics.com" className="design-link">
-                  Design by Disneygraphics
+                   d    |    Design by Disneygraphics
                 </Link>
-              </p>
+              
             </div>
           </div>
         </div>
