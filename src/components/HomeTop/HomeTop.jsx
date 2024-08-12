@@ -33,28 +33,28 @@ const HomeTop = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="m-0 g-0 p-0 bg-danger wrapperupper">
+          <div className="m-0 g-0 p-0   wrapperupper">
             <img src={one} alt="firstimage" />
           
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="m-0 g-0 p-0 bg-danger wrapperupper">
+          <div className="m-0 g-0 p-0   wrapperupper">
             <img src={two} alt="firstimage" />
         
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="m-0 g-0 p-0 bg-danger wrapperupper">
+          <div className="m-0 g-0 p-0   wrapperupper">
             <img src={three} alt="firstimage" />
 
          
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="m-0 g-0 p-0 bg-danger wrapperupper">
+          <div className="m-0 g-0 p-0   wrapperupper">
             <img src={four} alt="firstimage" />
 
          
@@ -63,14 +63,14 @@ const HomeTop = () => {
 
 
         <SwiperSlide>
-          <div className="m-0 g-0 p-0 bg-danger wrapperupper">
+          <div className="m-0 g-0 p-0   wrapperupper">
             <img src={five} alt="firstimage" />
           
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="m-0 g-0 p-0 bg-danger wrapperupper">
+          <div className="m-0 g-0 p-0   wrapperupper">
             <img src={six} alt="firstimage" />
       
           </div>
