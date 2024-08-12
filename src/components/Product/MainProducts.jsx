@@ -23,9 +23,9 @@ const MainProducts = () => {
             {/* <h4 className="whyush3title mb-3">Corrugated Box</h4>
             <h4 className="whyush3title mb-3">Corrugated Sheet Board</h4> */}
 
-            <p className="w-75 p-4 whyusTitleContent notCen">
-              <blockquote>
-                <q>
+            <p className="w-75 p-4 whyusTitleContent">
+              
+                <p>
                   We understand the need to reliably deliver high quality boxes
                   and sheet board, to fulfill the demands of customers so all
                   our boxes and sheet board are supplied to exacting standards
@@ -35,9 +35,9 @@ const MainProducts = () => {
                   Automatic corrugated packaging boxes go into many different
                   industries including, food manufacturing, Pharmaceutical,
                   Electronic, CeramicTile, Textile, Automobile and
-                  pesticide,etc...
-                </q>
-              </blockquote>
+                  pesticide,etc.
+                </p>
+              
             </p>
           </div>
         </div>

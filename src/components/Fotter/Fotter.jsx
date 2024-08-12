@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-logo">
             <img src={logo} alt="Logo" onClick={() => handleNavigation('/home', 'home')} />
-            <p>Precision in Delivery, Excellence in Service-Your Satisfaction, Our Drive   </p>
+            <p>Precision in Delivery, Excellence in Service—Your Satisfaction Drives Us. We are committed to exceeding your expectations with professionalism in every interaction. </p>
             {/* <div className="social-icons">
               <FaFacebookF />
               <FaYoutube />

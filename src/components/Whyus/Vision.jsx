@@ -14,7 +14,7 @@ const Vision = () => {
 
              
             <p className="w-75 p-2 whyusTitleContent">
-              <blockquote>
+           
                 <p>
                   To be the leading company and preferred supplier for providing
                   innovative, high-quality corrugated box packaging solutions to
@@ -22,7 +22,7 @@ const Vision = () => {
                   partnerships with our clients by delivering exceptional
                   products and services that meet their evolving needs.
                 </p>
-              </blockquote>
+                  
             </p>
           </div>
         </div>

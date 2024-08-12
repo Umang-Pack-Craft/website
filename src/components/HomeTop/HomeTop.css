@@ -2,11 +2,14 @@
   height: 100vh;
   width: 100%;
   position: relative;
+  overflow: hidden; /* Add this to prevent overflow */
 }
 
 .wrapperupper img {
   height: 100%;
   width: 100%;
+  object-fit: cover; /* This will maintain aspect ratio and cover the container */
+  object-position: center; /* This will center the image */
 }
 
 .btngetstarted {
@@ -53,4 +56,45 @@
 .swiper-button-next:after,
 .swiper-button-prev:after {
   font-size: 0.7rem !important;
+}/* Add responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .wrapperupper {
+    height: 50vh; /* Reduce height on mobile */
+  }
+}
+
+/* Add a subtle overlay for a more professional look */
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust opacity as needed */
+}
+
+/* Adjust Swiper navigation buttons for better visibility */
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(0, 29, 100, 0.7);
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 1rem !important;
+}
+
+/* Add pagination styles for better visibility */
+.swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #003083;
+  opacity: 1;
 }

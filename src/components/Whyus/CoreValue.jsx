@@ -8,7 +8,7 @@ const CoreValue = () => {
           <h2 className="whyusTitle">Core Values and Goals</h2>
          
           <p className="w-75 p-2 whyusTitleContent">
-            <blockquote>
+          
               <p>
                 Our primary objective is delivering impeccable services and
                 punctual box delivery. We promise uncompromised quality to our
@@ -17,7 +17,7 @@ const CoreValue = () => {
                 satisfaction, we aspire to foster company growth by setting
                 employee benchmarks and motivating goal achievement.
               </p>
-            </blockquote>
+            
           </p>
         </div>
       </div>
