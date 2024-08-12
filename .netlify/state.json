@@ -1,0 +1,19 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Rūpnagar",
+			"country": {
+				"code": "IN",
+				"name": "India"
+			},
+			"subdivision": {
+				"code": "PB",
+				"name": "Punjab"
+			},
+			"timezone": "Asia/Kolkata",
+			"latitude": 30.208,
+			"longitude": 73.9982
+		},
+		"timestamp": 1723491377482
+	}
+}
