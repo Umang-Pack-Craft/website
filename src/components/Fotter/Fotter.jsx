@@ -53,11 +53,11 @@ const Footer = () => {
           <div className="footer-services">
             <h3>Products</h3>
             <ul>
-              <li>Pallet Box</li>
-              <li>Duplex Box</li>
-              <li>Multicolor Box</li>
-              <li>Dye Cut Box</li>
-              <li>Regular Slotted (RSC) Box</li>
+              <li onClick={() => handleNavigation('/product', 'product')}>Pallet Box</li>
+              <li onClick={() => handleNavigation('/product', 'product')}>Duplex Box</li>
+              <li onClick={() => handleNavigation('/product', 'product')}>Multicolor Box</li>
+              <li onClick={() => handleNavigation('/product', 'product')}>Dye Cut Box</li>
+              <li onClick={() => handleNavigation('/product', 'product')}>Regular Slotted (RSC) Box</li>
             </ul>
           </div>
 
