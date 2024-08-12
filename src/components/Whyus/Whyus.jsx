@@ -8,6 +8,7 @@ import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 // import { FaDollarSign } from "react-icons/fa"; // Added for the dollar sign icon
 import "./Whyus.css";
+import "./CoreValue.css";
 import CoreValue from "./CoreValue";
 import Vision from "./Vision";
 import Misson from "./Misson";
@@ -19,21 +20,21 @@ const Whyus = () => {
       <div id="whyus" className="container-fluid containwyus">
         <div className="row">
           <div className="upper">
-            <div className="whyusHeading ">
-              <span>Why Us ?</span>
-            </div>
+            <h2 className="whyusTitle ">
+              Why us?
+            </h2>
 
-            <div className="parawhy my-3">
-  
-                <p>
-                  <strong>Umang Pack Craft</strong> was founded in the year 2018 and we
-                  specialise in manufacturing 3, 5, and 7 ply corrugated boxes.
-                  Situated near Chhatral, our factory spans 7,500 sq. ft and
-                  houses both manual and automatic corrugation plants. Our aim
-                  is customer satisfaction, crafting boxes to meet diverse
-                  specifications.
-                </p>
-              
+            <div className="parawhy my-3 p-3">
+
+              <p>
+                <strong>Umang Pack Craft</strong> was founded in the year 2018 and we
+                specialise in manufacturing 3, 5, and 7 ply corrugated boxes.
+                Situated near Chhatral, our factory spans 7,500 sq. ft and
+                houses both manual and automatic corrugation plants. Our aim
+                is customer satisfaction, crafting boxes to meet diverse
+                specifications.
+              </p>
+
             </div>
             {/* New section for statistics */}
             <div className="statistics-container">
@@ -73,12 +74,12 @@ const Whyus = () => {
               ))}
             </div>
           </div>
- 
-
-      </div>
 
 
-    </div >
+        </div>
+
+
+      </div >
       <CompanyOverview />
       <CoreValue />
       <Vision />

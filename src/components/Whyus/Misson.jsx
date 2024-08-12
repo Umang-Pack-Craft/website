@@ -30,9 +30,9 @@ const Misson = () => {
         <div className="row">
           <div className="col-12 ">
             <div className="missionPoint w-75 mx-auto">
-              <p className="mx-2">→ Delivering with commitments</p>
-              <p className="mx-2">→ Improving our quality standards</p>
-              <p className="mx-2">→ Building customer services that last</p>
+              <p className="mx-2">• Delivering with commitments</p>
+              <p className="mx-2">• Improving our quality standards</p>
+              <p className="mx-2">• Building customer services that last</p>
             </div>
           </div>
         </div>
