@@ -13,13 +13,13 @@ const MainProducts = () => {
             <h2 className="whyusTitle pb-2">
               Our Products
             </h2>
-            <ul className="whyush3title mb-3">
+            {/* <ul className="whyush3title mb-3">
               <li>PALLET BOX</li>
               <li>DUPLEX BOX</li>
               <li>MULTICOLOR BOX</li>
               <li>DYE CUT BOX</li>
               <li>REGULAR SLOTTED (RSC) BOX</li>
-            </ul>
+            </ul> */}
             {/* <h4 className="whyush3title mb-3">Corrugated Box</h4>
             <h4 className="whyush3title mb-3">Corrugated Sheet Board</h4> */}
 

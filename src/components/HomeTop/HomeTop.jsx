@@ -53,13 +53,14 @@ const HomeTop = () => {
          
           </div>
         </SwiperSlide>
-
         <SwiperSlide>
           <div className="m-0 g-0 p-0 bg-danger wrapperupper">
             <img src={four} alt="firstimage" />
-          
+
+         
           </div>
         </SwiperSlide>
+
 
         <SwiperSlide>
           <div className="m-0 g-0 p-0 bg-danger wrapperupper">

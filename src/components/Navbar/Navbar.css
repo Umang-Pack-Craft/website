@@ -1,7 +1,7 @@
 .navcnt {
   height: 80px; /* Fixed height instead of vh */
   width: 100%;
-  padding: 0 5%;
+  padding: 0 3%;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -14,10 +14,21 @@
   z-index: 1000;
   transition: all 0.3s ease;
 }
+.navleft {
+  display: flex;
+  align-items: center;
+}
 
 .navleft img {
   height: 40px;
   transition: transform 0.3s ease;
+  margin-right: 15px; /* Add space between logo and company name */
+}
+.company-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  white-space: nowrap; /* Prevent line breaks */
 }
 
 .navleft img:hover {
@@ -142,5 +153,20 @@
 
   .navcnt {
     height: 60px;
+    padding: 0 2%; /* Further reduce padding on mobile */
+  }
+
+  .navleft img {
+    height: 30px; /* Slightly reduce logo size on mobile */
+  }
+
+  .company-name {
+    font-size: 14px; /* Reduce font size on mobile */
+    max-width: 150px; /* Limit width to prevent overflow */
+  }
+}/* Add a media query for very small screens */
+@media screen and (max-width: 480px) {
+  .company-name {
+    max-width: 120px; /* Further limit width on very small screens */
   }
 }

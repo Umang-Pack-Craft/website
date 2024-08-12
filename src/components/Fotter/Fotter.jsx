@@ -1,6 +1,6 @@
 import React from "react";
 import "./Fotter.css";
-import { FaFacebookF, FaYoutube, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+// import { FaFacebookF, FaYoutube, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/umangLogo.png";
 import { Link } from "react-router-dom";
@@ -31,18 +31,18 @@ const Footer = () => {
           <div className="footer-logo">
             <img src={logo} alt="Logo" onClick={() => handleNavigation('/home', 'home')} />
             <p>Precision in Delivery, Excellence in Service-Your Satisfaction, Our Drive   </p>
-            <div className="social-icons">
+            {/* <div className="social-icons">
               <FaFacebookF />
               <FaYoutube />
               <FaInstagram />
               <FaLinkedinIn />
-            </div>
+            </div> */}
           </div>
 
           <div className="footer-links">
             <h3>Links</h3>
             <ul>
-            <li onClick={() => handleNavigation('/home', 'home')}>Home</li>
+              <li onClick={() => handleNavigation('/home', 'home')}>Home</li>
               <li onClick={() => handleNavigation('/about', 'whyus')}>About</li>
               <li onClick={() => handleNavigation('/product', 'product')}>Product</li>
               <li onClick={() => handleNavigation('/customers', 'customers')}>Customers</li>
@@ -53,18 +53,18 @@ const Footer = () => {
           <div className="footer-services">
             <h3>Products</h3>
             <ul>
-              <li>PALLET BOX</li>
-              <li>DUPLEX BOX</li>
-              <li>MULTICOLOR BOX</li>
-              <li>DYE CUT BOX</li>
-              <li>REGULAR SLOTTED (RSC) BOX</li>
+              <li>Pallet Box</li>
+              <li>Duplex Box</li>
+              <li>Multicolor Box</li>
+              <li>Dye Cut Box</li>
+              <li>Regular Slotted (RSC) Box</li>
             </ul>
           </div>
 
           <div className="footer-contact">
             <h3>Contact</h3>
-            <p>+91XXXXXXXXXX</p>
-            <p>XYZ@gmail.com</p>
+            <p>+079-40306208</p>
+            <p>umang.packcraft@yahoo.com</p>
             <p>Sr. No.: 109 & 110, Nr. Ahmadpura Bus Stop, Talod-Himatnagar
               Highway, Ahmadpura Ta.Talod, Dist. Sabarkantha - 383215,
               Gujarat.(India)</p>
@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>Copyright © 2024 Umang Pack-craft </p><p> Developed By <Link to="https://disneygraphics.com" className="design-link">
+          <p>Copyright © 2024 Umang Pack Craft Pvt. Ltd. </p><p> Developed By <Link to="https://disneygraphics.com" className="design-link">
             Disney Graphics
           </Link></p>
 

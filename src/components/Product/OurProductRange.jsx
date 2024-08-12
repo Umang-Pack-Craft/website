@@ -3,6 +3,9 @@ import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import box1 from "../../assets/1.jpg";
 import box2 from "../../assets/2.jpg";
+import box3 from "../../assets/3.jpg";
+import box4 from "../../assets/4.jpg";
+import box5 from "../../assets/5.jpg";
 
 // Import Swiper styles
 
@@ -63,19 +66,19 @@ const OurProductRange = () => {
                   />{" "}
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img   src={box2} alt="2" />
+                  <img   src={box1} alt="2" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img   src={box1} alt="3" />
+                  <img   src={box2} alt="3" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img   src={box2} alt="4" />
+                  <img   src={box3} alt="4" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img   src={box1} alt="5" />
+                  <img   src={box4} alt="5" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img   src={box2} alt="6" />
+                  <img   src={box5} alt="6" />
                 </SwiperSlide>
               </div>
             </Swiper>

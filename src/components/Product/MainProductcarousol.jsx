@@ -3,6 +3,9 @@ import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import box1 from "../../assets/1.jpg";
 import box2 from "../../assets/2.jpg";
+import box3 from "../../assets/3.jpg";
+import box4 from "../../assets/4.jpg";
+import box5 from "../../assets/5.jpg";
 
 // Import Swiper styles
 
@@ -61,28 +64,7 @@ const MainProductcarousol = () => {
               <div className="cardline"></div>
               <div className="cardbtm p-4">
                 <div className="sheet">
-                  <span>CORRUGATED</span>
-                </div>
-                <div className="sheetype">
-                  <span>BOX</span>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="cardslider w-100">
-              <div className="cardupper">
-                <div className="cardimg">
-                <img src={box1} alt="" />
-                </div>
-                <div className="cardicon">
-                  <BsFillImageFill fontSize={25} />
-                </div>
-              </div>
-              <div className="cardline"></div>
-              <div className="cardbtm p-4">
-                <div className="sheet">
-                  <span>CORRUGATED</span>
+                  <span>PALLET BOX</span>
                 </div>
                 <div className="sheetype">
                   <span>BOX</span>
@@ -103,7 +85,7 @@ const MainProductcarousol = () => {
               <div className="cardline"></div>
               <div className="cardbtm p-4">
                 <div className="sheet">
-                  <span>CORRUGATED</span>
+                  <span>DUPLEX BOX</span>
                 </div>
                 <div className="sheetype">
                   <span>BOX</span>
@@ -115,7 +97,7 @@ const MainProductcarousol = () => {
             <div className="cardslider w-100">
               <div className="cardupper">
                 <div className="cardimg">
-                <img src={box2} alt="" />
+                <img src={box3} alt="" />
                 </div>
                 <div className="cardicon">
                   <BsFillImageFill fontSize={25} />
@@ -124,7 +106,7 @@ const MainProductcarousol = () => {
               <div className="cardline"></div>
               <div className="cardbtm p-4">
                 <div className="sheet">
-                  <span>CORRUGATED</span>
+                  <span>MULTICOLOR BOX</span>
                 </div>
                 <div className="sheetype">
                   <span>BOX</span>
@@ -132,6 +114,49 @@ const MainProductcarousol = () => {
               </div>
             </div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div className="cardslider w-100">
+              <div className="cardupper">
+                <div className="cardimg">
+                <img src={box4} alt="" />
+                </div>
+                <div className="cardicon">
+                  <BsFillImageFill fontSize={25} />
+                </div>
+              </div>
+              <div className="cardline"></div>
+              <div className="cardbtm p-4">
+                <div className="sheet">
+                  <span>DYE CUT BOX</span>
+                </div>
+                <div className="sheetype">
+                  <span>BOX</span>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="cardslider w-100">
+              <div className="cardupper">
+                <div className="cardimg">
+                <img src={box5} alt="" />
+                </div>
+                <div className="cardicon">
+                  <BsFillImageFill fontSize={25} />
+                </div>
+              </div>
+              <div className="cardline"></div>
+              <div className="cardbtm p-4">
+                <div className="sheet">
+                  <span>REGULAR SLOTTED (RSC) BOX</span>
+                </div>
+                <div className="sheetype">
+                  <span>BOX</span>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
         </Swiper>
       </div>
     </div>
