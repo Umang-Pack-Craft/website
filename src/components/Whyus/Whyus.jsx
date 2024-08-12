@@ -1,18 +1,18 @@
 import React from "react";
-import { IoShield } from "react-icons/io5";
-import { FaPaperPlane } from "react-icons/fa";
-import { IoPricetagsSharp } from "react-icons/io5";
-import { FaRegCalendarDays } from "react-icons/fa6";
-import { MdBusinessCenter } from "react-icons/md";
-import { IoMdSettings } from "react-icons/io";
+// import { IoShield } from "react-icons/io5";
+// import { FaPaperPlane } from "react-icons/fa";
+// import { IoPricetagsSharp } from "react-icons/io5";
+// import { FaRegCalendarDays } from "react-icons/fa6";
+// import { MdBusinessCenter } from "react-icons/md";
+// import { IoMdSettings } from "react-icons/io";
 import { FaCheckCircle } from "react-icons/fa";
-import { FaDollarSign } from "react-icons/fa"; // Added for the dollar sign icon
+// import { FaDollarSign } from "react-icons/fa"; // Added for the dollar sign icon
 import "./Whyus.css";
 import CoreValue from "./CoreValue";
 import Vision from "./Vision";
 import Misson from "./Misson";
 import CompanyOverview from "./CompanyOverview";
-import mobileView from "../../assets/umangMobile.png";
+// import mobileView from "../../assets/umangMobile.png";
 const Whyus = () => {
   return (
     <>

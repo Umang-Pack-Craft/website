@@ -1,5 +1,5 @@
 import React from "react";
-import OurProductRange from "./OurProductRange";
+// import OurProductRange from "./OurProductRange";
 import MainProducts from "./MainProducts";
 import QualityControl from "./QualityControl";
 import MainProductcarousol from "./MainProductcarousol";
