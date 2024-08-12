@@ -9,7 +9,6 @@
   justify-content: space-between;
 }
 .contact{
-  margin: -60px;
   font-size: 3.6rem;
   font-weight: 700;
 }
@@ -55,7 +54,7 @@
   }
   .contact {
     font-size: 2rem;
-    margin-bottom: -80px;
+    margin-bottom: -40px;
   }
 }
 

@@ -2,7 +2,7 @@ import React from "react";
 import "./CoreValue.css";
 const CoreValue = () => {
   return (
-    <div className="container-fluid coreValue">
+    <div className="container-fluid ">
       <div className="row">
         <div className="col-12 whyuscnt ">
           <h2 className="whyusTitle">Core Values and Goals</h2>

@@ -8,7 +8,7 @@ const QualityControl = () => {
   return (
     <>
   
-      <div className="container-fluid">
+      <div className="container-fluid ">
         <div className="row">
           <div className="col-12 whyuscnt  " id="mission">
             <h2 className="whyusTitle pb-2">Quality Control</h2>

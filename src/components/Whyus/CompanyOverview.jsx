@@ -39,12 +39,12 @@ const CompanyOverview = () => {
 
   return (
     <div className="company-overview" id="whyus">
-      <div >
-        <div className="company">
-          <h2 className="overview mt-5 ">Company Overview</h2>
-          {/* <h2 className="company-name">Umang Pack Craft Pvt. Ltd</h2> */}
-        </div>
+
+      <div className="company">
+        <h2 className="overview mt-5 ">Company Overview</h2>
+        {/* <h2 className="company-name">Umang Pack Craft Pvt. Ltd</h2> */}
       </div>
+
       <div className="cards-container">
         {overviewCards.map((card, index) => (
           <div className="overview-card" key={index}>

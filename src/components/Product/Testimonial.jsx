@@ -11,7 +11,7 @@ const Testimonial = () => {
       {/* New section for Certificate of Compliance */}
       <div className="certificate-section">
         <div className="container whyuscnt">
-          <h2 className="whyusTitle">Our Commitment to Quality</h2>
+          <h2 className="section-title mb-5">Our Commitment to Quality</h2>
           <div className="certificate-container">
             <div className="certificate-info">
               <h3>Certificate of Compliance</h3>
