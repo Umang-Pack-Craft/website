@@ -73,7 +73,39 @@
     padding: 6px;
     font-size: 1.3rem;
 }
-
+.statistics-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  
+  .statistic-item {
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  .statistic-item h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .statistic-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .statistics-container {
+      flex-direction: column;
+    }
+    
+    .statistic-item {
+      margin: 1rem 0;
+    }
+  }
 /* Add animation keyframes */
 @keyframes bounce {
     0% {

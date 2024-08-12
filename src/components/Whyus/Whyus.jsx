@@ -23,18 +23,39 @@ const Whyus = () => {
              
             <div className="parawhy my-3">
               <blockquote>
-                <q>
-                  Umang Pack-craft was founded in the year 2018 and we
+                <pattern>
+                  <strong>Umang Pack Craft</strong> was founded in the year 2018 and we
                   specialise in manufacturing 3, 5, and 7 ply corrugated boxes.
                   Situated near Chhatral, our factory spans 7,500 sq. ft and
                   houses both manual and automatic corrugation plants. Our aim
                   is customer satisfaction, crafting boxes to meet diverse
                   specifications.
-                </q>
+                </pattern>
               </blockquote>
             </div>
+             {/* New section for statistics */}
+             <div className="statistics-container">
+              <div className="statistic-item">
+                <h2>6</h2>
+                <p>Years of Experience</p>
+              </div>
+              <div className="statistic-item">
+                <h2>50+</h2>
+                <p>Employees</p>
+              </div>
+              <div className="statistic-item">
+                <h2>50+</h2>
+                <p>Global Customers</p>
+              </div>
+              <div className="statistic-item">
+                <h2>10000</h2>
+                <p>Ton's of Corrugated Boxes</p>
+              </div>
+            </div>
           </div>
-          <div className="middle my-3">
+
+
+          {/* <div className="middle my-3">
             <div className="container-fluid">
               <div className="newclasswhy">
                 <div className="childOfNewclasswhy">
@@ -187,7 +208,8 @@ const Whyus = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+          
         </div>
       </div>
       <CompanyOverview />

@@ -55,7 +55,7 @@ const Navbar = () => {
             <div className="menu1" onClick={() => handleNavigation('/home','home')}>Home</div>
             <div className="menu1" onClick={() => handleNavigation('/about', 'whyus')}>About</div>
             <div className="menu1" onClick={() => handleNavigation('/product', 'product')}>Product</div>
-            <div className="menu1" onClick={() => handleNavigation('/customers', 'customers')}>Customers</div>
+            {/* <div className="menu1" onClick={() => handleNavigation('/customers', 'customers')}>Customers</div> */}
             <div className="menu1" onClick={() => handleNavigation('/contactus', 'contactus')}>Contact</div>
           </div>
           {windowWidth <= 768 && (
