@@ -19,8 +19,8 @@ const Whyus = () => {
       <div id="whyus" className="container-fluid containwyus">
         <div className="row">
           <div className="upper">
-            <div className="whyusHeading m-2 pt-5 pb-3 ">
-              <span>Why Choose Us ?</span>
+            <div className="whyusHeading ">
+              <span>Why Us ?</span>
             </div>
 
             <div className="parawhy my-3">
