@@ -1,6 +1,8 @@
 .containwyus {
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    padding: 4rem 0;
+    background-color: #f8f9fa;
 }
 
 .upper {
@@ -19,10 +21,96 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* .extraright {
-    margin-left: 4%;
-} */
+.statistics-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
 
+.statistic-item {
+    flex-basis: calc(25% - 20px);
+    text-align: center;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.statistic-item h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.statistic-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.key-steps-container {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.key-steps-container h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.key-steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.key-step-item {
+    display: flex;
+    align-items: center;
+}
+
+.key-step-icon {
+    font-size: 1.5rem;
+    color: #28a745;
+    margin-right: 1rem;
+}
+
+.key-step-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+@media screen and (max-width: 992px) {
+    .statistics-container {
+        justify-content: center;
+    }
+
+    .statistic-item {
+        flex-basis: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+
+    .key-steps-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .key-steps-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .statistic-item {
+        flex-basis: 100%;
+    }
+}
 .rightparawhy {
     text-align: end;
 }
@@ -73,39 +161,7 @@
     padding: 6px;
     font-size: 1.3rem;
 }
-.statistics-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 2rem;
-    width: 100%;
-  }
-  
-  .statistic-item {
-    text-align: center;
-    margin: 1rem;
-  }
-  
-  .statistic-item h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .statistic-item p {
-    font-size: 1rem;
-    color: #666;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .statistics-container {
-      flex-direction: column;
-    }
-    
-    .statistic-item {
-      margin: 1rem 0;
-    }
-  }
+
 /* Add animation keyframes */
 @keyframes bounce {
     0% {
@@ -294,20 +350,3 @@
 
 }
 
-/* @media (max-width: 1211px) {
-    .newclasswhy {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .col-md-3 {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .newclasswhy {
-        flex-direction: column;
-    }
-} */
