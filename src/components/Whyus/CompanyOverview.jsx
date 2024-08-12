@@ -38,7 +38,7 @@ const CompanyOverview = () => {
   ];
 
   return (
-    <div className="company-overview">
+    <div className="company-overview" id="whyus">
       <div >
         <div className="company">
           <h2 className="overview mt-5 ">Company Overview</h2>

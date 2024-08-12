@@ -17,7 +17,8 @@ import CompanyOverview from "./CompanyOverview";
 const Whyus = () => {
   return (
     <>
-      <div id="whyus" className="container-fluid containwyus">
+      <CompanyOverview />
+      <div  className="container-fluid containwyus">
         <div className="row">
           <div className="upper">
             <h2 className="whyusTitle ">
@@ -27,12 +28,7 @@ const Whyus = () => {
             <div className="parawhy my-3 p-3">
 
               <p>
-                <strong>Umang Pack Craft</strong> was founded in the year 2018 and we
-                specialise in manufacturing 3, 5, and 7 ply corrugated boxes.
-                Situated near Chhatral, our factory spans 7,500 sq. ft and
-                houses both manual and automatic corrugation plants. Our aim
-                is customer satisfaction, crafting boxes to meet diverse
-                specifications.
+                Founded in 2018, <strong>Umang Pack Craft</strong> specializes in custom 3, 5, and 7 ply corrugated boxes from our 7,500 sq. ft. factory near Chhatral
               </p>
 
             </div>
@@ -80,7 +76,7 @@ const Whyus = () => {
 
 
       </div >
-      <CompanyOverview />
+
       <CoreValue />
       <Vision />
       <Misson />
