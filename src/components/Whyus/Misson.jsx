@@ -13,12 +13,7 @@ const Misson = () => {
             <p className="w-75 p-2 whyusTitleContent ">
               
                 <p>
-                  To meet our customer's dynamic packaging needs by providing
-                  cost-effective, optimised, and eco-friendly corrugated box
-                  solutions. We are committed to delivering on our promises,
-                  continually enhancing our quality standards, and building
-                  customer services that create long-term satisfaction and
-                  loyalty.
+                Our objective is to address our customers' dynamic packaging needs by offering cost-effective, optimized, and eco-friendly corrugated box solutions. We are dedicated to fulfilling our commitments, continuously improving our quality standards, and developing customer service practices that foster long-term satisfaction and loyalty.
                 </p>
                 <p style={{float:"left"}}>
                   <strong>We want to consistently delight our customers by:</strong>
