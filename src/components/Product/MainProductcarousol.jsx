@@ -62,13 +62,11 @@ const MainProductcarousol = () => {
                 </div>
               </div>
               <div className="cardline"></div>
-              <div className="cardbtm p-4">
+              <div className="cardbtm p-5">
                 <div className="sheet">
                   <span>PALLET BOX</span>
                 </div>
-                <div className="sheetype">
-                  <span>BOX</span>
-                </div>
+              
               </div>
             </div>
           </SwiperSlide>
@@ -83,13 +81,11 @@ const MainProductcarousol = () => {
                 </div>
               </div>
               <div className="cardline"></div>
-              <div className="cardbtm p-4">
+              <div className="cardbtm p-5">
                 <div className="sheet">
                   <span>DUPLEX BOX</span>
                 </div>
-                <div className="sheetype">
-                  <span>BOX</span>
-                </div>
+             
               </div>
             </div>
           </SwiperSlide>
@@ -104,13 +100,11 @@ const MainProductcarousol = () => {
                 </div>
               </div>
               <div className="cardline"></div>
-              <div className="cardbtm p-4">
+              <div className="cardbtm p-5">
                 <div className="sheet">
                   <span>MULTICOLOR BOX</span>
                 </div>
-                <div className="sheetype">
-                  <span>BOX</span>
-                </div>
+               
               </div>
             </div>
           </SwiperSlide>
@@ -125,13 +119,11 @@ const MainProductcarousol = () => {
                 </div>
               </div>
               <div className="cardline"></div>
-              <div className="cardbtm p-4">
+              <div className="cardbtm p-5">
                 <div className="sheet">
                   <span>DYE CUT BOX</span>
                 </div>
-                <div className="sheetype">
-                  <span>BOX</span>
-                </div>
+             
               </div>
             </div>
           </SwiperSlide>
@@ -146,13 +138,13 @@ const MainProductcarousol = () => {
                 </div>
               </div>
               <div className="cardline"></div>
-              <div className="cardbtm p-4">
+              <div className="cardbtm p-5">
                 <div className="sheet">
                   <span>REGULAR SLOTTED (RSC) BOX</span>
                 </div>
-                <div className="sheetype">
+                {/* <div className="sheetype">
                   <span>BOX</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </SwiperSlide>

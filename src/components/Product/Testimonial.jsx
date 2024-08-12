@@ -2,6 +2,7 @@ import { FaFilePdf } from "react-icons/fa"; // Import PDF icon
 import "./Testimonial.css";
 import certificate from "../../assets/certificate.jpg";
 import pdf from "../../certificate/certificate.pdf";
+import "../Whyus/CoreValue.css";
 
 const Testimonial = () => {
   return (
@@ -9,8 +10,8 @@ const Testimonial = () => {
      
       {/* New section for Certificate of Compliance */}
       <div className="certificate-section">
-        <div className="container">
-          <h2 className="section-title">Our Commitment to Quality</h2>
+        <div className="container whyuscnt">
+          <h2 className="whyusTitle">Our Commitment to Quality</h2>
           <div className="certificate-container">
             <div className="certificate-info">
               <h3>Certificate of Compliance</h3>
