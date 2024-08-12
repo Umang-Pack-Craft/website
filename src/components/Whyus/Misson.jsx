@@ -10,9 +10,9 @@ const Misson = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 whyuscnt  " id="mission">
-            <h2 className="whyusTitle pb-2">Mission</h2>
+            <h2 className="whyusTitle">Mission</h2>
              
-            <p className="w-75 p-4 whyusTitleContent notCen">
+            <p className="w-75 p-2 whyusTitleContent notCen">
               <blockquote>
                 <q>
                   To meet our customers' dynamic packaging needs by providing

@@ -56,7 +56,7 @@ const Whyus = () => {
             </div>
           </div>
           <div className="key-steps-container">
-            <h2>Our Key Steps to Success</h2>
+            <h2>Our Core Success Methodologies</h2>
             <div className="key-steps-grid">
               {[
                 "Cost Effective Solutions",
