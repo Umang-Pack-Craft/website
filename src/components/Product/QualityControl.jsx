@@ -23,11 +23,11 @@ const QualityControl = () => {
               </p>
               <div className="col-12 ">
                 <div className="missionPoint w-75 mx-auto">
-                  <p className="mx-2 mb-2">• Compression strength machine for boxes</p>
-                  <p className="mx-2 mb-2">• Bursting strength machine for boxes and paper</p>
-                  <p className="mx-2 mb-2">• BF tester for paper</p>
                   <p className="mx-2 mb-2">• GSM tester</p>
                   <p className="mx-2 mb-2">• Moisture meter</p>
+                  <p className="mx-2 mb-2">• BF tester for paper</p>
+                  <p className="mx-2 mb-2">• Compression strength machine for boxes</p>
+                  <p className="mx-2 mb-2">• Bursting strength machine for boxes and paper</p>
                 </div>
               </div>
             </p>
