@@ -10,7 +10,7 @@ const MainProducts = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 whyuscnt">
-            <h2 className="whyusTitle pb-2">
+            <h2 className="whyusTitle pb-2" style={{marginTop : '-25px'}}>
               Our Products
             </h2>
             {/* <ul className="whyush3title mb-3">

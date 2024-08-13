@@ -33,8 +33,9 @@
 }
 
 .missionPoint {
-  margin-top: -30px;
-  ;
+  margin-top: -15px;
+  
+  
 }
 
 @media screen and (max-width:768px) {
@@ -54,13 +55,13 @@
     width: 100% !important;
     padding: 0 !important;
     /* margin: 0 !important; */
-    margin-top: -20px;
+    margin-top: -10px;
     ;
 
   }
 
   .missionPoint p {
-    line-height: 5px;
+    line-height: 15px;
     font-size: small;
   }
 }
