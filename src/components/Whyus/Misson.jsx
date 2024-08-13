@@ -16,7 +16,7 @@ const Misson = () => {
                 Our objective is to address our customers' dynamic packaging needs by offering cost-effective, optimized, and eco-friendly corrugated box solutions. We are dedicated to fulfilling our commitments, continuously improving our quality standards, and developing customer service practices that foster long-term satisfaction and loyalty.
                 </p>
                 <p >
-                  <strong>We seek to consistently amaze our customers by:</strong>
+                  <strong style={{fontSize:'1.4rem'}}>We seek to consistently amaze our customers by:</strong>
                 </p>
                 <div className="col-12 ">
             <div className="missionPoint w-75 mx-auto">
