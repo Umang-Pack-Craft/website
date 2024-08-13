@@ -8,12 +8,12 @@ const CompanyOverview = () => {
     {
       icon: <FaBuilding />,
       title: "About Us",
-      content: "Umang Pack Craft, established in 2018, specializes in producing 3, 5, and 7-ply corrugated boxes. Located near Chhatral, our 7,500 sq. ft. facility is equipped with both manual and automated corrugation plants. We are dedicated to delivering tailored packaging solutions that ensure complete customer satisfaction."
+      content: "Umang Pack Craft, established in 2018, specializes in producing 3, 5, and 7-ply corrugated boxes. Located near Chhatral, our 1,76,000 sq. ft. facility is equipped with both manual and automated corrugation plants. We are dedicated to delivering tailored packaging solutions that ensure complete customer satisfaction."
     },
     {
       icon: <FaMapMarkerAlt />,
       title: "Location",
-      content: "We are located at Sr. No. 109 & 110, near Ahmadpura Bus Stop on the Talod-Himatnagar Highway, Sabarkantha, Gujarat - 383215. Our facility is 64 km from Ahmedabad Airport, 20 km from Himatnagar, and 52 km from Gandhinagar."
+      content: "Our facility is located at Block No. 1579, Rajpur Zulasan, Taluka Kadi, District Mehsana, Gujarat, India - 382715. This location offers convenient access to major transportation routes, ensuring efficient connections to key cities and transportation hubs in the region."
     },
     {
       icon: <FaHistory />,

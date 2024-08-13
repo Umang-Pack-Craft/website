@@ -45,7 +45,7 @@ const Footer = () => {
               <li onClick={() => handleNavigation('/home', 'home')}>Home</li>
               <li onClick={() => handleNavigation('/about', 'whyus')}>About</li>
               <li onClick={() => handleNavigation('/product', 'product')}>Product</li>
-              <li onClick={() => handleNavigation('/customers', 'customers')}>Customers</li>
+              {/* <li onClick={() => handleNavigation('/customers', 'customers')}>Customers</li> */}
               <li onClick={() => handleNavigation('/contactus', 'contactus')}>Contact</li>
             </ul>
           </div>
@@ -65,9 +65,7 @@ const Footer = () => {
             <h3>Contact</h3>
             <p>+079-40306208</p>
             <p>umang.packcraft@yahoo.com</p>
-            <p>Sr. No.: 109 & 110, Nr. Ahmadpura Bus Stop, Talod-Himatnagar
-              Highway, Ahmadpura Ta.Talod, Dist. Sabarkantha - 383215,
-              Gujarat.(India)</p>
+            <p>Block No. 1579, Rajpur Zulasan, Taluka Kadi, District Mehsana, Gujarat, India - 382715.</p>
           </div>
         </div>
 
