@@ -8,7 +8,7 @@ const CompanyOverview = () => {
     {
       icon: <FaBuilding />,
       title: "About Us",
-      content: "Umang Pack Craft, established in 2018, specializes in producing 3, 5, and 7-ply corrugated boxes. Located near Mehsana, Gujarat, our 1,76,000 sq. ft. facility is equipped with both manual and automated corrugation plants. We are dedicated to delivering tailored packaging solutions that ensure complete customer satisfaction."
+      content: "Umang Pack Craft, established in 2018, specializes in producing 3, 5, and 7-ply corrugated boxes. Located in Mehsana, Gujarat, our 1,76,000 sq. ft. facility is equipped with both manual and automated corrugation plants. We are dedicated to delivering tailored packaging solutions that ensure complete customer satisfaction."
     },
     {
       icon: <FaMapMarkerAlt />,
