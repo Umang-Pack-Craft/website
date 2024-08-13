@@ -28,7 +28,7 @@ const Whyus = () => {
             <div className="parawhy my-3 p-3">
 
               <p>
-                Founded in 2018, <strong>Umang Pack Craft</strong> specializes in custom 3, 5, and 7 ply corrugated boxes from our 1,76,000 sq. ft. factory near Chhatral, Gujarat.
+                Founded in 2018, <strong>Umang Pack Craft</strong> specializes in custom 3, 5, and 7 ply corrugated boxes from our 1,76,000 sq. ft. factory near Mehsana, Gujarat.
               </p>
 
             </div>
