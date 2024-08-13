@@ -16,7 +16,7 @@ const Vision = () => {
             <p className="w-75 p-2 whyusTitleContent">
            
                 <p>
-                Our goal is to become the leading company and preferred supplier of innovative, high-quality corrugated box packaging solutions nationwide. We strive to establish enduring partnerships with our clients by delivering exceptional products and services that address their evolving needs.
+                To be the leading company and preferred supplier for providing innovative, high-quality corrugated box packaging solutions to customers across the country. We aim to build lasting partnerships with our clients by delivering exceptional products and services that meet their evolving needs.
                 </p>
                   
             </p>
