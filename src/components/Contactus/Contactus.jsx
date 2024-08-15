@@ -1,47 +1,36 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./Contact.css";
 import "../Whyus/CoreValue.css";
 import "../Whyus/Vision.css";
+import emailjs from '@emailjs/browser';
 
 const Contactus = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-
+  const form = useRef();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState("");
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = async (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitMessage("");
 
-    try {
-      const response = await fetch('/.netlify/functions/send-email', {
-        method: 'POST',
-        body: JSON.stringify(formData),
+    emailjs
+      .sendForm('service_1f4jmnb', 'template_kid67nr', form.current, {
+        publicKey: '8z9im9et8qSgyq6F7',
+      })
+      .then(
+        () => {
+          setSubmitMessage('Email sent successfully!');
+          form.current.reset();
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+          setSubmitMessage('An error occurred. Please try again later.');
+        },
+      )
+      .finally(() => {
+        setIsSubmitting(false);
       });
-      
-      if (response.ok) {
-        setSubmitMessage('Email sent successfully!');
-        setFormData({ name: "", email: "", phone: "", message: "" });
-      } else {
-        const errorData = await response.json();
-        setSubmitMessage(`Failed to send email: ${errorData.error}`);
-      }
-    } catch (error) {
-      console.error('Error:', error);
-      setSubmitMessage('An error occurred. Please try again later.');
-    } finally {
-      setIsSubmitting(false);
-    }
   };
 
   return (
@@ -53,42 +42,36 @@ const Contactus = () => {
       </div>
       <div className="my-5">
         <div className="containerf">
-          <form id="contactForm" onSubmit={handleSubmit}>
+          <form ref={form} onSubmit={sendEmail}>
             <div className="formouter">
               <div className="form-group w-100 marginRemoveAtSmall">
                 <input
                   type="text"
                   id="name"
-                  name="name"
+                  name="user_name"
                   placeholder="Your Name"
                   className="w-100"
                   required
-                  value={formData.name}
-                  onChange={handleChange}
                 />
               </div>
               <div className="form-group mx-2 w-100 marginRemoveAtSmall">
                 <input
                   type="email"
                   id="email"
-                  name="email"
+                  name="user_email"
                   placeholder="Email Address"
                   className="w-100"
                   required
-                  value={formData.email}
-                  onChange={handleChange}
                 />
               </div>
               <div className="form-group w-100 marginRemoveAtSmall">
                 <input
                   type="tel"
                   id="phone"
-                  name="phone"
+                  name="user_phone"
                   placeholder="Phone Number"
                   className="w-100"
                   required
-                  value={formData.phone}
-                  onChange={handleChange}
                 />
               </div>
             </div>
@@ -99,8 +82,6 @@ const Contactus = () => {
                 rows="8"
                 placeholder="Your Message"
                 required
-                value={formData.message}
-                onChange={handleChange}
               ></textarea>
             </div>
       
